@@ -37,4 +37,4 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
           local-dir: out/
-          server-dir: domains/avyuktlabs.in/public_html/
+          server-dir: /
