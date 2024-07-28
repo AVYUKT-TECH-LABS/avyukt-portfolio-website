@@ -14,12 +14,21 @@ jobs:
       - name: Use Node.js 18
         uses: actions/setup-node@v2
         with:
-            node-version: '18'
-      
-      - name: 🔨 Build Project
-        run: |
-            npm install
-            npm run build
+          node-version: "18"
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build static files
+        run: npm run build
 
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
@@ -27,4 +36,5 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
+          local-dir: out/
           server-dir: domains/avyuktlabs.in/public_html/
