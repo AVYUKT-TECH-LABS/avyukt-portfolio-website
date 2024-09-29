@@ -6,19 +6,15 @@ const Footer = () => {
     <footer className="bg-white">
       <div className="custom-container flex md:flex-row flex-col py-24 justify-between gap-10">
         <div className="flex flex-col md:items-start justify-center items-center gap-10">
-          <div className="flex md:flex-row flex-col justify-center md:items-start items-center space-x-2">
+          <div className="flex flex-col justify-center md:items-start items-center space-x-2">
             <Image
               className=""
-              src="/img/logo.png"
+              src="/img/logo-full.webp"
               alt="Avyukt Logo"
-              width={50}
-              height={50}
-              priority
+              width={250}
+              height={48}
             />
             <div className="flex flex-col space-y-1 mt-2">
-              <h1 className="text-2xl font-lg font-semibold text-black font-sans md:text-left text-center">
-                AVYUKT TECH LABS
-              </h1>
               <div className="md:text-start text-center">
                 <p className="text-gray-400">
                   A-7, Flat no.8, 2nd Floor, Jawahar park, Khanpur,

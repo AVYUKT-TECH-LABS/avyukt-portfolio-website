@@ -31,7 +31,7 @@ const ConnectWithUs = () => {
         <div className="md:w-3/5 w-full md:mb-0 mb-2">
           <Image
             className="w-full h-full"
-            src="/img/connect-with-us-home.jpg"
+            src="/img/connect-with-us-home.webp"
             alt="Avyukt Logo"
             width={600}
             height={660}

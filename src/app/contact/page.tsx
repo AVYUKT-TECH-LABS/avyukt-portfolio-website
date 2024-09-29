@@ -9,7 +9,7 @@ const page = () => {
       <section
         className="h-[50vh] relative"
         style={{
-          backgroundImage: 'url("img/home-bg.jpg")',
+          backgroundImage: 'url("img/home-bg.webp")',
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundPosition: "center center",

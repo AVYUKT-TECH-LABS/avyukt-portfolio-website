@@ -30,8 +30,13 @@ const navLinks: {
   },
   {
     id: 5,
+    title: "Blogs",
+    to: "/blogs",
+  },
+  {
+    id: 6,
     title: "Contact us",
-    to: "https://forms.gle/W9547VW4uPHr4V957",
+    to: "/contact",
     isCTA: true,
   },
 ];
@@ -39,7 +44,7 @@ const navLinks: {
 function Header() {
   return (
     <header className="bg-white w-full">
-      <div className="border-b border-gray-200 py-3 w-full">
+      {/* <div className="border-b border-gray-200 py-3 w-full">
         <div className="w-full md:container md:mx-auto md:max-w-6xl">
           <div className="flex flex-row items-center justify-center md:justify-between">
             <span></span>
@@ -49,7 +54,7 @@ function Header() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div
         id="main-nav"
         className="min-h-[92px] items-center justify-center flex flex-col sticky top-0 bg-white z-10"
@@ -61,15 +66,12 @@ function Header() {
           >
             <Image
               className=""
-              src="/img/logo.png"
+              src="/img/logo-full.webp"
               alt="Avyukt Logo"
-              width={50}
-              height={50}
+              width={250}
+              height={48}
               priority
             />
-            <h1 className="text-xl font-lg font-semibold text-black">
-              AVYUKT TECH LABS
-            </h1>
           </a>
           <nav>
             <ul className="flex flex-row items-center space-x-6">

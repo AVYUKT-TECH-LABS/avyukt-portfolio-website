@@ -31,28 +31,23 @@ const techs = [
 
 function page() {
   return (
-    <div>
+    <article>
       <section className="py-12 px-4 md:px-0 md:py-32 flex flex-row items-center">
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-row-items-center justify-between w-full">
             <div className="flex flex-col space-y-6 md:w-1/2 py-24">
               <div className="relative">
                 <h2 className="theme-headline">
-                  <span className="heading">Corporate </span>
-                  Amplify Your Digital Presence & Accelerate Growth
+                  Your ideas our efforts
                 </h2>
               </div>
               <div>
                 <p className="text-gray-500 leading-7">
-                  Avyukt Tech Labs empowers businesses with cutting-edge web and
-                  mobile solutions. From stunning websites to targeted digital
-                  marketing, we deliver comprehensive strategies that drive
-                  engagement, boost conversions, and propel your brand to new
-                  heights in the digital landscape.
+                  Get high quality web design services for all sized businesses & companies worldwide.
                 </p>
               </div>
               <div>
-                <Link target="_blank" href={"https://forms.gle/W9547VW4uPHr4V957"}>
+                <Link target="_blank" href={"/contact"}>
                   <button className="cta-btn !py-3">
                     <span>Contact Now</span>
                   </button>
@@ -265,7 +260,7 @@ function page() {
         </div>
       </section>
       <ContactUs />
-    </div>
+    </article>
   );
 }
 

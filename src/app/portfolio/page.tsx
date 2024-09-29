@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const projects = [
@@ -73,7 +74,7 @@ const projects = [
     url: "https://internspace.in",
     description:
       "For Internspace, an internships platform, we developed a streamlined and user-friendly website that connects students with valuable internship opportunities seamlessly.",
-    image: "/img/internspace.png",
+    image: "/img/internspace.webp",
   },
 ];
 
@@ -96,16 +97,36 @@ export default function Page() {
     };
   }, [showPreview]);
   return (
-    <div className="w-full">
-      <section className="py-32 w-full">
+    <article className="w-full">
+      <section>
+        <div
+          style={{
+            backgroundImage: 'url("img/home-bg.webp")',
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            backgroundPosition: "center center",
+          }}
+        >
+          <div className="flex-1 bg-black bg-opacity-60 py-12">
+            <div className="flex flex-col items-center justify-center">
+              <h1 className="text-4xl text-white font-semibold text-center">
+                Portfolio
+              </h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="py-24 w-full">
         <div className="md:container md:mx-auto md:max-w-8xl w-full">
           <div className="flex flex-col items-center space-y-20 justify-between">
             <div>
               <div className="relative">
                 <h2 className="theme-headline">
-                  <span className="heading ml-24">Portfolio </span>
-                  <p className="-mt-8 text-center">Some of our premium work</p>
+                  <p className=" text-center">Some of our premium work</p>
                 </h2>
+                <p className="text-center mt-4">
+                  At <Link href="/" className="text-amber-500">Avyukt Tech Labs</Link>, we take pride in our website design and eCommerce development portfolio. Each project is a testament to our creativity and technical expertise. With a focus on user-centric design and cutting-edge development, we craft websites that captivate, engage, and deliver results. Explore our portfolio to see how we&aops;ve helped businesses like yours thrive in the digital landscape. From sleek, responsive designs to e-commerce solutions that boost sales, our work speaks for itself. Join our satisfied clients and embark on a journey toward digital excellence with  <Link href="/" className="text-amber-500">Avyukt Tech Labs</Link>.
+                </p>
               </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-4 md:px-0">
@@ -154,6 +175,6 @@ export default function Page() {
           </div> */}
         </div>
       )}
-    </div>
+    </article>
   );
 }

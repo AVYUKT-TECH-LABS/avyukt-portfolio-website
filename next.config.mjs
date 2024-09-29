@@ -4,7 +4,7 @@ const nextConfig = {
         domains: ["internspace.in", 'xstore.b-cdn.net', 'themewagon.com'],
         unoptimized: true
     },
-    output: "export"
+    // output: "export"
 };
 
 export default nextConfig;

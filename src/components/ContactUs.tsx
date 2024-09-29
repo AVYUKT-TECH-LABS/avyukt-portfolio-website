@@ -7,7 +7,7 @@ function ContactUs() {
     <section>
       <div
         style={{
-          backgroundImage: 'url("img/home-bg.jpg")',
+          backgroundImage: 'url("img/home-bg.webp")',
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundPosition: "center center",
@@ -19,9 +19,9 @@ function ContactUs() {
               <div className="flex flex-col md:py-12 space-y-6 items-center">
                 <div className="relative hidden md:block">
                   <h2 className="theme-headline">
-                    <span className="heading">Contact Us </span>
                     <p className="mt-4 text-4xl md:text-5xl">
-                      Start Your Digital Transformation Journey
+                      Contact us for robust web design & development
+                      services in India
                     </p>
                   </h2>
                 </div>
@@ -32,11 +32,7 @@ function ContactUs() {
                 </div>
                 <div>
                   <p className="leading-9 text-center md:text-left">
-                    Ready to elevate your digital presence? Avyukt Tech Labs is
-                    here to help. Whether you have questions about our services,
-                    need expert advice, or want to start a project, our team is
-                    eager to assist you. Reach out today, and let&apos;s turn
-                    your digital aspirations into reality.
+                    As the best web design and development service provider, we guarantee the highest caliber web design service at competitive rates to support the online success of your organization. Utilize our top-notch web development services to accelerate lead conversions for your company.
                   </p>
                 </div>
                 <div className="w-full">
