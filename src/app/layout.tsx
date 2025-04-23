@@ -1,4 +1,4 @@
-import { GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import Footer from "../components/footer/footer";
 import Header from "../components/header/v2";
@@ -94,11 +94,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      {process.env.NODE_ENV === "production" && (
-        <>
-          <GoogleAnalytics gaId="G-XXXXXXXXXX" />
-        </>
-      )}
+      <GoogleTagManager gtmId="AW-17025867407" />
+      <GoogleAnalytics gaId="G-JGYN2BBC12" />
       <body>
         <Header />
         <main>{children}</main>
