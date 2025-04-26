@@ -6,7 +6,7 @@ import Link from "next/link";
 const packages = [
     {
         name: 'Basic',
-        price: 2999,
+        price: 29999,
         color: 'bg-blue-500',
         features: {
             homePage: true,
@@ -14,20 +14,20 @@ const packages = [
             designQuality: 'Basic',
             navigationSystem: true,
             domain: '-',
-            webSpace: '100MB',
+            webSpace: '1GB',
             numberOfEmailId: 1,
             inquiryPage: 1,
-            mobileTabletFriendly: false,
+            mobileTabletFriendly: true,
             socialMediaLinkIntegration: false,
             googleMapIntegration: false,
             liveChatIntegration: false,
-            whatsappIntegration: false,
-            extraPages: 'Rs.500/page'
+            whatsappIntegration: true,
+            extraPages: 'Rs.599/page'
         },
     },
     {
         name: 'Business',
-        price: 6999,
+        price: 34999,
         color: 'bg-green-500',
         features: {
             homePage: true,
@@ -35,20 +35,20 @@ const packages = [
             designQuality: 'Business',
             navigationSystem: true,
             domain: 'Domain (.in)*',
-            webSpace: '300MB',
+            webSpace: '1GB',
             numberOfEmailId: 1,
             inquiryPage: 1,
             mobileTabletFriendly: true,
-            socialMediaLinkIntegration: false,
-            googleMapIntegration: false,
+            socialMediaLinkIntegration: true,
+            googleMapIntegration: true,
             liveChatIntegration: false,
-            whatsappIntegration: false,
-            extraPages: 'Rs.500/page'
+            whatsappIntegration: true,
+            extraPages: 'Rs.599/page'
         },
     },
     {
         name: 'Professional',
-        price: 9999,
+        price: 39999,
         color: 'bg-red-500',
         features: {
             homePage: true,
@@ -56,20 +56,20 @@ const packages = [
             designQuality: 'Professional',
             navigationSystem: true,
             domain: 'Domain (.com)*',
-            webSpace: '500MB',
+            webSpace: '2GB',
             numberOfEmailId: 2,
             inquiryPage: 1,
             mobileTabletFriendly: true,
             socialMediaLinkIntegration: true,
             googleMapIntegration: true,
-            liveChatIntegration: false,
+            liveChatIntegration: true,
             whatsappIntegration: true,
-            extraPages: 'Rs.500/page'
+            extraPages: 'Rs.999/page'
         },
     },
     {
         name: 'Creative',
-        price: 19999,
+        price: 49999,
         color: 'bg-yellow-500',
         features: {
             homePage: true,
@@ -77,7 +77,7 @@ const packages = [
             designQuality: 'Creative',
             navigationSystem: true,
             domain: 'Domain (.com/.in/.net/.org)*',
-            webSpace: '700MB',
+            webSpace: '2GB',
             numberOfEmailId: 5,
             inquiryPage: 1,
             mobileTabletFriendly: true,
@@ -135,7 +135,7 @@ export default function page() {
                                 </div>
                             </ul>
                             <div className="flex flex-row items-center space-x-4 mt-6">
-                                <Link href="get-quote" className="bg-yellow-600 text-white font-medium rounded-full py-2 px-4 hover:bg-yellow-700 border border-white">
+                                <Link href="contact" className="bg-yellow-600 text-white font-medium rounded-full py-2 px-4 hover:bg-yellow-700 border border-white">
                                     <span>Request a Consultation</span>
                                 </Link>
                                 <Link href="#ecommerce-packages" className="bg-yellow-600 text-white font-medium rounded-full py-2 px-4 hover:bg-yellow-700 border border-white">

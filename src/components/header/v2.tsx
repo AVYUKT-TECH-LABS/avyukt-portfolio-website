@@ -28,24 +28,24 @@ const navLinks: {
     title: "Portfolio",
     to: "/portfolio",
   },
-  {
-    id: 5,
-    title: "Blogs",
-    to: "/blogs",
-  },
-  {
-    id: 6,
-    title: "Contact us",
-    to: "/contact",
-    isCTA: true,
-  },
+  // {
+  //   id: 5,
+  //   title: "Blogs",
+  //   to: "/blogs",
+  // },
+  // {
+  //   id: 6,
+  //   title: "Contact us",
+  //   to: "/contact",
+  //   isCTA: true,
+  // },
 ];
 
 function Header() {
   return (
     <header className="bg-white w-full">
-      {/* <div className="border-b border-gray-200 py-3 w-full">
-        <div className="w-full md:container md:mx-auto md:max-w-6xl">
+      {/* <div className="border-b border-gray-200 py-3 w-full bg-[#34f092]">
+        <div className="w-full md:container md:mx-auto md:max-w-7xl bg-[#34f092]">
           <div className="flex flex-row items-center justify-center md:justify-between">
             <span></span>
             <div className="flex flex-row items-center divide-x divide-gray-200 space-x-2 text-sm text-gray-700">
@@ -59,19 +59,20 @@ function Header() {
         id="main-nav"
         className="min-h-[92px] items-center justify-center flex flex-col sticky top-0 bg-white z-10"
       >
-        <div className="md:container md:mx-auto w-full md:max-w-6xl flex flex-col md:flex-row items-center justify-center md:justify-between">
+        <div className="md:container md:mx-auto w-full md:max-w-8xl flex flex-col md:flex-row items-center justify-center md:justify-between">
           <a
             href="/"
             className="flex flex-col md:flex-row items-center md:space-x-2 mb-4 md:mb-0"
           >
             <Image
               className=""
-              src="/img/logo-full.webp"
-              alt="Avyukt Logo"
-              width={250}
-              height={48}
+              src="/img/logo-new-cropped.png"
+              alt="AVYUKT TECH LABS"
+              width={40}
+              height={40}
               priority
             />
+            <span className="text-lg font-[600]">AVYUKT TECH LABS</span>
           </a>
           <nav>
             <ul className="flex flex-row items-center space-x-6">
@@ -79,7 +80,9 @@ function Header() {
                 <Link href={link.to} key={link.id}>
                   <li
                     className={
-                      link.isCTA ? "cta-btn !py-3 hidden md:block" : "nav-link"
+                      link.isCTA
+                        ? "shadow-[0_0_0_1px_#000000_inset] hover:bg-[#34f092] px-4 py-2 bg-transparent border border-black  text-black rounded-md font-semibold transform hidden md:block"
+                        : "nav-link"
                     }
                   >
                     <span>{link.title}</span>
@@ -88,6 +91,14 @@ function Header() {
               ))}
             </ul>
           </nav>
+          <div>
+            <Link
+              className="bg-black px-4 py-2 text-white rounded-md font-medium transform hidden md:block"
+              href="/contact"
+            >
+              Contact Us
+            </Link>
+          </div>
         </div>
       </div>
     </header>

@@ -9,9 +9,9 @@ const Footer = () => {
           <div className="flex flex-col justify-center md:items-start items-center space-x-2">
             <Image
               className=""
-              src="/img/logo-full.webp"
-              alt="Avyukt Logo"
-              width={250}
+              src="/img/logo-new-cropped.png"
+              alt="AVYUKT TECH LABS"
+              width={48}
               height={48}
             />
             <div className="flex flex-col space-y-1 mt-2">
@@ -41,7 +41,7 @@ const Footer = () => {
               <Link href="/portfolio">Portfolio</Link>
             </li>
             <li className="col-span-2">
-              <Link target="_blank" href="https://forms.gle/W9547VW4uPHr4V957">Contact Us</Link>
+              <Link href="/contact">Contact Us</Link>
             </li>
           </ul>
 
@@ -54,8 +54,8 @@ const Footer = () => {
       <hr className="border" />
 
       <div className="flex justify-center items-center py-12">
-        <p className="md:text-sm text-xs">
-          Copyright © 2024 Avyukt Tech Labs Pvt. Ltd.
+        <p className="md:text-sm text-xs text-center text-gray-500">
+          All Rights Reserved © 2025<br/>AVYUKT TECH LABS PRIVATE LIMITED
         </p>
       </div>
     </footer>

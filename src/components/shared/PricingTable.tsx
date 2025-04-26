@@ -36,7 +36,7 @@ export default function PricingTable({ packages }: PricingTableProps) {
                             <td className="p-2 bg-gray-100 border font-semibold">Price</td>
                             {packages.map((pkg) => (
                                 <td key={pkg.name} className={`p-2 text-center text-white ${pkg.color} border font-bold`}>
-                                    ₹{pkg.price}/-
+                                    From - ₹{pkg.price}/-
                                 </td>
                             ))}
                         </tr>
@@ -72,7 +72,7 @@ export default function PricingTable({ packages }: PricingTableProps) {
                                 <td key={pkg.name} className="p-2 text-center border">
                                     <Link
                                         key={pkg.name}
-                                        href="get-quote"
+                                        href="contact"
                                         className={`px-4 py-2 rounded text-white ${pkg.color} hover:opacity-90 transition-opacity`}
                                     >
                                         Get Quote for {pkg.name}

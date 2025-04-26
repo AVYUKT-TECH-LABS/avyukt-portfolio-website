@@ -9,7 +9,7 @@ import BlogPosts from "@/components/shared/BlogPosts";
 const packages = [
     {
         name: 'Basic',
-        price: 2999,
+        price: 9999,
         color: 'bg-blue-500',
         features: {
             homePage: true,
@@ -20,17 +20,17 @@ const packages = [
             webSpace: '100MB',
             numberOfEmailId: 1,
             inquiryPage: 1,
-            mobileTabletFriendly: false,
+            mobileTabletFriendly: true,
             socialMediaLinkIntegration: false,
-            googleMapIntegration: false,
+            googleMapIntegration: true,
             liveChatIntegration: false,
             whatsappIntegration: false,
-            extraPages: 'Rs.500/page'
+            extraPages: 'Rs.499/page'
         },
     },
     {
         name: 'Business',
-        price: 6999,
+        price: 15999,
         color: 'bg-green-500',
         features: {
             homePage: true,
@@ -42,16 +42,16 @@ const packages = [
             numberOfEmailId: 1,
             inquiryPage: 1,
             mobileTabletFriendly: true,
-            socialMediaLinkIntegration: false,
-            googleMapIntegration: false,
+            socialMediaLinkIntegration: true,
+            googleMapIntegration: true,
             liveChatIntegration: false,
-            whatsappIntegration: false,
-            extraPages: 'Rs.500/page'
+            whatsappIntegration: true,
+            extraPages: 'Rs.999/page'
         },
     },
     {
         name: 'Professional',
-        price: 9999,
+        price: 29999,
         color: 'bg-red-500',
         features: {
             homePage: true,
@@ -67,12 +67,12 @@ const packages = [
             googleMapIntegration: true,
             liveChatIntegration: false,
             whatsappIntegration: true,
-            extraPages: 'Rs.500/page'
+            extraPages: 'Rs.1499/page'
         },
     },
     {
         name: 'Creative',
-        price: 19999,
+        price: 49999,
         color: 'bg-yellow-500',
         features: {
             homePage: true,
@@ -88,7 +88,7 @@ const packages = [
             googleMapIntegration: true,
             liveChatIntegration: true,
             whatsappIntegration: true,
-            extraPages: 'Rs.500/page'
+            extraPages: 'Rs.1999/page'
         },
     },
 ]

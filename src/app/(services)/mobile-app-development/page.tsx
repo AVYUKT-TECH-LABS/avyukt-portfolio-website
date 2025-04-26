@@ -25,7 +25,7 @@ export default function page() {
                             Bring your brand to the next level with our professional mobile app development services. We curate custom and high-performance mobile applications that address the client&aops;s business needs, ensuring higher user engagement and brand loyalty.
                         </p>
                         <div className="flex flex-row items-center space-x-4 mt-6">
-                            <Link href="get-quote" className="bg-yellow-600 text-white font-medium rounded-full py-2 px-4 hover:bg-yellow-700 border border-white">
+                            <Link href="contact" className="bg-yellow-600 text-white font-medium rounded-full py-2 px-4 hover:bg-yellow-700 border border-white">
                                 <span>Request a Consultation</span>
                             </Link>
                         </div>
@@ -53,7 +53,7 @@ export default function page() {
                             Enrich your business by availing of our top-of-the-line Mobile app development team based out of India, who guide in delivering the best to help render the most customized solutions befitting needs, offering one seamless performance on the front of performance and user experiences. Let our experts make your vision turn into one successful and high-performance Mobile app.
                         </p>
                         <div className="flex flex-row items-center space-x-4 mt-6">
-                            <Link href="get-quote" className="bg-transparent text-white font-medium rounded-full py-2 px-4 border border-white">
+                            <Link href="contact" className="bg-transparent text-white font-medium rounded-full py-2 px-4 border border-white">
                                 <span>Request a Consultation</span>
                             </Link>
                         </div>

@@ -1,9 +1,74 @@
 "use client";
+import ContactUs from "@/components/ContactUs";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const projects = [
+  {
+    id: 9,
+    title: "Internspace",
+    url: "https://internspace.in",
+    description:
+      "For Internspace, an internships platform, we developed a streamlined and user-friendly website that connects students with valuable internship opportunities seamlessly.",
+    image: "/img/internspace.webp",
+  },
+  {
+    id: 9,
+    title: "Internspace Employers",
+    url: "https://internspace.in/hire-talent",
+    description:
+      "For Internspace, an internships platform, we developed a streamlined and user-friendly website that connects students with valuable internship opportunities seamlessly.",
+    image: "/img/portfolio/ispace.png",
+  },
+  {
+    id: 15,
+    title: "Internspace App (IOS, Android)",
+    url: "https://play.google.com/store/apps/details?id=in.internspace.app",
+    description:
+      "For Internspace, an internships platform, we developed a streamlined and user-friendly website that connects students with valuable internship opportunities seamlessly.",
+    image: "/img/portfolio/ispace-app.png",
+  },
+  {
+    id: 10,
+    title: "Buildocare",
+    url: "https://buildocare.com",
+    description:
+      "For Internspace, an internships platform, we developed a streamlined and user-friendly website that connects students with valuable internship opportunities seamlessly.",
+    image: "/img/portfolio/buildocare.png",
+  },
+  {
+    id: 11,
+    title: "Adrotack",
+    url: "https://adrotack.com",
+    description:
+      "For Internspace, an internships platform, we developed a streamlined and user-friendly website that connects students with valuable internship opportunities seamlessly.",
+    image: "/img/portfolio/adrotack.png",
+  },
+  {
+    id: 14,
+    title: "Cloud Cred",
+    url: "https://cloudcred.in",
+    description:
+      "For Internspace, an internships platform, we developed a streamlined and user-friendly website that connects students with valuable internship opportunities seamlessly.",
+    image: "/img/portfolio/cloud-cred.png",
+  },
+  {
+    id: 12,
+    title: "Talentxcel",
+    url: "https://talentxcel.co.in",
+    description:
+      "For Internspace, an internships platform, we developed a streamlined and user-friendly website that connects students with valuable internship opportunities seamlessly.",
+    image: "/img/portfolio/txcl.png",
+  },
+  {
+    id: 13,
+    title: "Talentxcel Platform",
+    url: "https://staging.talentxcel.net",
+    description:
+      "For Internspace, an internships platform, we developed a streamlined and user-friendly website that connects students with valuable internship opportunities seamlessly.",
+    image: "/img/portfolio/txcl-plat.jpeg",
+  },
   {
     id: 1,
     title: "LifeSure",
@@ -67,14 +132,6 @@ const projects = [
     description:
       "For Ultras, an e-commerce clothing brand, we developed a dynamic and trendy online store that highlights their unique apparel and simplifies the shopping process for customers.",
     image: "https://themewagon.com/wp-content/uploads/2023/07/ultras.png",
-  },
-  {
-    id: 9,
-    title: "Internspace",
-    url: "https://internspace.in",
-    description:
-      "For Internspace, an internships platform, we developed a streamlined and user-friendly website that connects students with valuable internship opportunities seamlessly.",
-    image: "/img/internspace.webp",
   },
 ];
 
@@ -175,6 +232,7 @@ export default function Page() {
           </div> */}
         </div>
       )}
+      <ContactUs />
     </article>
   );
 }

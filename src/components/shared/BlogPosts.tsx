@@ -32,57 +32,59 @@ interface BlogsProps {
 export default function BlogPosts({ title = "Recommended Blogs", category }: BlogsProps) {
     const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
 
-    return (
-        <div className="py-12 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-7xl mx-auto">
-                <h1 className="text-3xl font-bold text-center text-gray-900 mb-12">
-                    {title}
-                </h1>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {blogPosts.map((post, index) => (
-                        <Link
-                            key={index}
-                            href=""
-                            title={post.title}
-                        >
-                            <motion.div
-                                className="bg-white rounded-lg shadow-md overflow-hidden"
-                                whileHover={{ scale: 1.05 }}
-                                onHoverStart={() => setHoveredIndex(index)}
-                                onHoverEnd={() => setHoveredIndex(null)}
-                            >
-                                <img
-                                    src={post.image}
-                                    alt={post.alt}
-                                    className="w-full h-48 object-cover"
-                                />
-                                <div className="p-6">
-                                    <h2 className="text-xl font-semibold text-gray-900 mb-2">
-                                        {post.title}
-                                    </h2>
-                                    <p className="text-gray-600 mb-4">
-                                        {post.description}
-                                    </p>
-                                    <motion.a
-                                        href="#"
-                                        className="text-orange-600 font-semibold hover:text-orange-700 transition-colors"
-                                        whileHover={{ scale: 1.1 }}
-                                    >
-                                        Read More..
-                                    </motion.a>
-                                </div>
-                                {hoveredIndex === index && (
-                                    <motion.div
-                                        className="absolute inset-0 bg-black bg-opacity-10 rounded-lg"
-                                        initial={{ opacity: 0 }}
-                                        animate={{ opacity: 1 }}
-                                        exit={{ opacity: 0 }}
-                                    />
-                                )}
-                            </motion.div></Link>
-                    ))}
-                </div>
-            </div>
-        </div>
-    )
+    return null
+
+    // return (
+    //     <div className="py-12 px-4 sm:px-6 lg:px-8">
+    //         <div className="max-w-7xl mx-auto">
+    //             <h1 className="text-3xl font-bold text-center text-gray-900 mb-12">
+    //                 {title}
+    //             </h1>
+    //             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    //                 {blogPosts.map((post, index) => (
+    //                     <Link
+    //                         key={index}
+    //                         href=""
+    //                         title={post.title}
+    //                     >
+    //                         <motion.div
+    //                             className="bg-white rounded-lg shadow-md overflow-hidden"
+    //                             whileHover={{ scale: 1.05 }}
+    //                             onHoverStart={() => setHoveredIndex(index)}
+    //                             onHoverEnd={() => setHoveredIndex(null)}
+    //                         >
+    //                             <img
+    //                                 src={post.image}
+    //                                 alt={post.alt}
+    //                                 className="w-full h-48 object-cover"
+    //                             />
+    //                             <div className="p-6">
+    //                                 <h2 className="text-xl font-semibold text-gray-900 mb-2">
+    //                                     {post.title}
+    //                                 </h2>
+    //                                 <p className="text-gray-600 mb-4">
+    //                                     {post.description}
+    //                                 </p>
+    //                                 <motion.a
+    //                                     href="#"
+    //                                     className="text-orange-600 font-semibold hover:text-orange-700 transition-colors"
+    //                                     whileHover={{ scale: 1.1 }}
+    //                                 >
+    //                                     Read More..
+    //                                 </motion.a>
+    //                             </div>
+    //                             {hoveredIndex === index && (
+    //                                 <motion.div
+    //                                     className="absolute inset-0 bg-black bg-opacity-10 rounded-lg"
+    //                                     initial={{ opacity: 0 }}
+    //                                     animate={{ opacity: 1 }}
+    //                                     exit={{ opacity: 0 }}
+    //                                 />
+    //                             )}
+    //                         </motion.div></Link>
+    //                 ))}
+    //             </div>
+    //         </div>
+    //     </div>
+    // )
 }

@@ -1,16 +1,22 @@
 .theme-headline {
   color: #222222;
-  font-family: "Manrope", Sans-serif;
+
   font-size: 48px;
   font-weight: 600;
   line-height: 58px;
 }
 
+.hero-text {
+  color: #222222;
+  font-size: 84px;
+  font-weight: 800;
+  line-height: 84px;
+}
+
 .theme-headline .heading {
-  font-family: "Manrope", Sans-serif;
   font-size: 132px;
   font-weight: 800;
-  color: rgb(36 39 43 / 6%);
+  color: #f9f7f7;
   left: 0;
   right: auto;
   --translateX: 0;
@@ -47,25 +53,23 @@
 .bg-grid-img-left {
   position: absolute;
   top: -20px;
-  left: 30px;
+  right: -300px;
   width: 100%;
   z-index: inherit;
 }
 .box-title {
-  font-family: "Manrope", Sans-serif;
   font-size: 22px;
   font-weight: 800;
   line-height: 30px;
-  color: #222222;
+  color: #000;
   margin-bottom: 20px;
 }
 
 .box-description {
-  font-family: "Manrope", Sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
-  color: #555555;
+  color: #000;
 }
 
 @media (max-width: 767px) {

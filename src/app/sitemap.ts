@@ -1,4 +1,3 @@
-import { client } from '@/sanity/lib/client'
 import type { MetadataRoute } from 'next'
 
 const staticPages = [
@@ -26,12 +25,12 @@ const staticPages = [
     changeFrequency: 'weekly',
     priority: 0.9,
   },
-  {
-    url: 'https://avyuktlabs.in/blogs',
-    lastModified: new Date(),
-    changeFrequency: 'daily',
-    priority: 0.9,
-  },
+  // {
+  //   url: 'https://avyuktlabs.in/blogs',
+  //   lastModified: new Date(),
+  //   changeFrequency: 'daily',
+  //   priority: 0.9,
+  // },
   {
     url: 'https://avyuktlabs.in/contact',
     lastModified: new Date(),
@@ -77,21 +76,7 @@ const staticPages = [
 ]
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const blogs = await client.fetch(`
-    *[_type == "post"][] {
-          slug,
-          publishedAt
-    }`)
-
-  const blogPages = blogs.map((blog: any) => ({
-    url: `https://avyuktlabs.in/blogs/${blog.slug.current}`,
-    lastModified: blog.publishedAt,
-    changeFrequency: 'monthly',
-    priority: 0.8
-  }))
-
   return [
     ...staticPages as never,
-    ...blogPages
   ]
 }

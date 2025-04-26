@@ -6,19 +6,19 @@ import Link from "next/link";
 const packages = [
     {
         name: 'Basic',
-        price: 4499,
+        price: 14999,
         color: 'bg-blue-500',
         features: {
             homePage: true,
             numberOfPages: 5,
             designQuality: 'Basic',
             navigationSystem: true,
-            domain: '-',
+            domain: '.in*',
             webSpace: '300MB',
             numberOfEmailId: 1,
             inquiryPage: true,
-            secureAdminPanel: true,
-            editableContent: true,
+            secureAdminPanel: false,
+            editableContent: false,
             blogPage: true,
             zoomGallery: true,
             editableSlider: false,
@@ -27,21 +27,21 @@ const packages = [
             menuCreation: false,
             freeAndroidMobileApplication: false,
             multipleUser: false,
-            mobileTabletFriendlyDesign: false,
+            mobileTabletFriendlyDesign: true,
             searchEngineFriendly: true,
             forms: 1,
-            socialMediaLinkIntegration: false,
+            socialMediaLinkIntegration: true,
             googleMapIntegration: false,
             whatsappChatIntegration: false,
             liveChatIntegration: false,
-            freeSSLCertificate: false,
-            onpageOptimization: false,
-            extraPages: 'Rs.500/page'
+            freeSSLCertificate: true,
+            onpageOptimization: true,
+            extraPages: 'Rs.599/page'
         },
     },
     {
         name: 'Business',
-        price: 9999,
+        price: 24999,
         color: 'bg-green-500',
         features: {
             homePage: true,
@@ -52,7 +52,7 @@ const packages = [
             webSpace: '500MB',
             numberOfEmailId: 2,
             inquiryPage: true,
-            secureAdminPanel: true,
+            secureAdminPanel: false,
             editableContent: true,
             blogPage: true,
             zoomGallery: true,
@@ -65,18 +65,18 @@ const packages = [
             mobileTabletFriendlyDesign: true,
             searchEngineFriendly: true,
             forms: 1,
-            socialMediaLinkIntegration: false,
-            googleMapIntegration: false,
-            whatsappChatIntegration: false,
-            liveChatIntegration: false,
-            freeSSLCertificate: false,
-            onpageOptimization: false,
-            extraPages: 'Rs.500/page'
+            socialMediaLinkIntegration: true,
+            googleMapIntegration: true,
+            whatsappChatIntegration: true,
+            liveChatIntegration: true,
+            freeSSLCertificate: true,
+            onpageOptimization: true,
+            extraPages: 'Rs.999/page'
         },
     },
     {
         name: 'Professional',
-        price: 14999,
+        price: 29999,
         color: 'bg-red-500',
         features: {
             homePage: true,
@@ -103,15 +103,15 @@ const packages = [
             socialMediaLinkIntegration: true,
             googleMapIntegration: true,
             whatsappChatIntegration: true,
-            liveChatIntegration: false,
-            freeSSLCertificate: false,
-            onpageOptimization: false,
-            extraPages: 'Rs.500/page'
+            liveChatIntegration: true,
+            freeSSLCertificate: true,
+            onpageOptimization: true,
+            extraPages: 'Rs.1199/page'
         },
     },
     {
         name: 'Creative',
-        price: 24999,
+        price: 34999,
         color: 'bg-yellow-500',
         features: {
             homePage: true,
@@ -138,10 +138,10 @@ const packages = [
             socialMediaLinkIntegration: true,
             googleMapIntegration: true,
             whatsappChatIntegration: true,
-            liveChatIntegration: false,
-            freeSSLCertificate: false,
-            onpageOptimization: false,
-            extraPages: 'Rs.500/page'
+            liveChatIntegration: true,
+            freeSSLCertificate: true,
+            onpageOptimization: true,
+            extraPages: 'Rs.1199/page'
         },
     },
     {

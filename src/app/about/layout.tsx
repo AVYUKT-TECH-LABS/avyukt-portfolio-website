@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     url: "https://avyuktlabs.in/about",
     images: [
       {
-        url: "https://avyuktlabs.in/img/logo.png",
+        url: "https://avyuktlabs.in/img/logo-new-cropped.png",
         alt: "Avyukt Tech Labs",
         type: "image/png",
         width: 86,
@@ -40,39 +40,39 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/favicon.ico",
+        url: "/favicon_io/favicon.ico",
         type: "image/x-icon"
       },
       {
-        url: "/favicon-16x16.png",
+        url: "/favicon_io/favicon-16x16.png",
         sizes: "16x16",
         type: "image/png"
       },
       {
-        url: "/favicon-32x32.png",
+        url: "/favicon_io/favicon-32x32.png",
         sizes: "32x32",
         type: "image/png"
       },
       {
-        url: "/android-chrome-192x192.png",
+        url: "/favicon_io/android-chrome-192x192.png",
         sizes: "192x192",
         type: "image/png"
       },
       {
-        url: "/android-chrome-512x512.png",
+        url: "/favicon_io/android-chrome-512x512.png",
         sizes: "512x512",
         type: "image/png"
       }
     ],
     shortcut: [
       {
-        url: "/favicon.ico",
+        url: "/favicon_io/favicon.ico",
         type: "image/x-icon"
       }
     ],
     apple: [
       {
-        url: "/apple-touch-icon.png",
+        url: "/favicon_io/apple-touch-icon.png",
         sizes: "180x180",
         type: "image/png"
       },

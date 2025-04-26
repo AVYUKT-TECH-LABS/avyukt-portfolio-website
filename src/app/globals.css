@@ -2,9 +2,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* body {
   @apply min-h-screen flex flex-col bg-100 text-400;
 } */
+
+*{
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-style: normal;
+}
 
 footer {
   @apply mt-auto;
@@ -40,8 +47,7 @@ h6 {
 }
 
 .nav-link span {
-  font-family: "Manrope", sans-serif;
-  font-weight: 800;
+  font-weight: 500 !important;
   letter-spacing: 0;
   text-transform: inherit;
   border-top-width: 0;
@@ -57,12 +63,11 @@ h6 {
 }
 
 .cta-btn {
-  @apply bg-200;
-  font-family: Manrope, sans-serif;
-  font-weight: 800;
+  @apply bg-transparent;
+  font-weight: 500;
   text-transform: none;
   font-size: calc(var(--content-zoom) * 1.1);
-  color: #222222 !important;
+  color: #000 !important;
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 0;
@@ -74,13 +79,16 @@ h6 {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
+  border: 3px solid black;
+  font-weight: 600;
 }
 
 .cta-btn:hover {
-    @apply bg-200-dark;
-    transform: scale(1.03) !important;
-    transition-duration: .3s !important;
-    color: #222222 !important;
+    background-color: #34f092;
+    font-weight: 600;
+    transition-duration: .1s !important;
+    color: #000 !important;
+    border: 3px solid black;
 }
 
 @layer base {

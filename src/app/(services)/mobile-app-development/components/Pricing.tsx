@@ -5,9 +5,9 @@ import Link from "next/link"
 
 export default function Pricing() {
     const pricingOptions = [
-        { type: "Static", price: "Rs.4999", color: "bg-blue-500" },
-        { type: "Limited Features", price: "Rs.29999", color: "bg-green-500" },
-        { type: "Ecommerce", price: "Rs.69999", color: "bg-red-500" },
+        { type: "Static", price: "Rs.19999", color: "bg-blue-500" },
+        { type: "Limited Features", price: "From Rs.34999", color: "bg-green-500" },
+        { type: "Ecommerce", price: "From Rs.69999", color: "bg-red-500" },
         { type: "Custom", price: "Depends", color: "bg-yellow-500" },
     ]
 
