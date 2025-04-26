@@ -41,7 +41,7 @@ function page() {
       <section className="py-12 px-4 md:px-0 md:py-32 flex flex-row items-center">
         <div className="container mx-auto max-w-8xl">
           <div className="flex md:flex-row flex-col-reverse items-center justify-between w-full md:gap-x-12 gap-y-6">
-            <div className="flex flex-col gap-y-6 md:w-1/2 md:py-24 py-10">
+            <div className="flex flex-col gap-y-6 md:py-24 py-10">
               <div className="relative">
                 <div className="absolute right-12 -top-12 -z-10 animate-spin">
                   <Image

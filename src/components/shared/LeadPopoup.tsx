@@ -21,6 +21,7 @@ import { cn } from "@/lib/utils";
 import emailjs from "@emailjs/browser";
 import Image from "next/image";
 import { sectors } from "@/constants";
+import { sendGTMEvent } from "@next/third-parties/google";
 
 interface FormData {
   name: string;
@@ -179,8 +180,14 @@ export function LeadPopup() {
           emailJSConfig.publicKey
         );
 
-        console.log("Email sent successfully:", response);
+        // console.log("Email sent successfully:", response);
         setIsSubmitted(true);
+        sendGTMEvent({
+          event: "conversion",
+          value: {
+            send_to: "AW-17025867407/Ly5UCIDBgb4aEI-9yLY_",
+          },
+        });
 
         // Reset form after successful submission
         setTimeout(() => {

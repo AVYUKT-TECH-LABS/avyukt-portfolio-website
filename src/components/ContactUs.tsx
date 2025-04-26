@@ -1,6 +1,7 @@
-'use client'
+"use client";
 import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { sendGTMEvent } from "@next/third-parties/google";
 
 const contactInput = "py-4 px-3 rounded-lg border border-gray-200";
 
@@ -23,7 +24,7 @@ function ContactUs() {
     }));
   };
 
-  const sendEmail = (e:any) => {
+  const sendEmail = (e: any) => {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitStatus(null);
@@ -37,8 +38,14 @@ function ContactUs() {
         "bkSFddeD7-g26cgAk"
       )
       .then((result: any) => {
-        console.log("Email sent successfully:", result.text);
+        // console.log("Email sent successfully:", result.text);
         setSubmitStatus("success");
+        sendGTMEvent({
+          event: "conversion",
+          value: {
+            send_to: "AW-17025867407/Ly5UCIDBgb4aEI-9yLY_",
+          },
+        });
         setFormData({
           name: "",
           phone: "",
@@ -157,8 +164,8 @@ function ContactUs() {
 
                     {submitStatus === "success" && (
                       <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded">
-                        Your message has been sent successfully! We&apos;ll get back
-                        to you soon.
+                        Your message has been sent successfully! We&apos;ll get
+                        back to you soon.
                       </div>
                     )}
 
