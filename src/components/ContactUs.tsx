@@ -41,9 +41,9 @@ function ContactUs() {
         // console.log("Email sent successfully:", result.text);
         setSubmitStatus("success");
         sendGTMEvent({
-          event: "conversion",
+          event: "lead",
           value: {
-            send_to: "AW-17025867407/Ly5UCIDBgb4aEI-9yLY_",
+            send_to: "AW-17025867407/fC5yCKL_mb8aEI-9yLY_",
           },
         });
         setFormData({

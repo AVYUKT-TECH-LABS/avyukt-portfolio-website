@@ -112,8 +112,9 @@ export default function RootLayout({
       suppressHydrationWarning
       className={encoded_sans_expanded.className}
     >
-      <GoogleTagManager gtmId="AW-17025867407" />
-      <GoogleAnalytics gaId="G-JGYN2BBC12" />
+      <GoogleTagManager gtmId="GTM-PZ2MBPCK" />
+{/*       <GoogleTagManager gtmId="AW-17025867407" /> */}
+{/*       <GoogleAnalytics gaId="G-JGYN2BBC12" /> */}
       <body>
         <Header />
         <main>{children}</main>
