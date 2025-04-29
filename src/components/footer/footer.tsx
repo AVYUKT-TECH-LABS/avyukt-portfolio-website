@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="flex flex-col justify-center md:items-start items-center space-x-2">
             <Image
               className=""
-              src="/img/logo-new-cropped.png"
+              src="/img/logo-new-cropped.webp"
               alt="AVYUKT TECH LABS"
               width={48}
               height={48}

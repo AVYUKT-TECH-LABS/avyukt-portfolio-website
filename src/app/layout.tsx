@@ -26,9 +26,9 @@ export const metadata: Metadata = {
     url: "https://avyuktlabs.in/",
     images: [
       {
-        url: "https://avyuktlabs.in/img/logo-new-cropped.png",
+        url: "https://avyuktlabs.in/img/logo-new-cropped.webp",
         alt: "AVYUKT TECH LABS",
-        type: "image/png",
+        type: "image/webp",
         width: 86,
         height: 81,
       },

@@ -66,8 +66,8 @@ function Header() {
           >
             <Image
               className=""
-              src="/img/logo-new-cropped.png"
-              alt="AVYUKT TECH LABS"
+              src="/img/logo-new-cropped.webp"
+              alt="Company logo"
               width={40}
               height={40}
               priority
@@ -77,17 +77,18 @@ function Header() {
           <nav>
             <ul className="flex flex-row items-center space-x-6">
               {navLinks.map((link) => (
-                <Link href={link.to} key={link.id}>
-                  <li
-                    className={
-                      link.isCTA
-                        ? "shadow-[0_0_0_1px_#000000_inset] hover:bg-[#34f092] px-4 py-2 bg-transparent border border-black  text-black rounded-md font-semibold transform hidden md:block"
-                        : "nav-link"
-                    }
-                  >
+                <li
+                  key={link.id}
+                  className={
+                    link.isCTA
+                      ? "shadow-[0_0_0_1px_#000000_inset] hover:bg-[#34f092] px-4 py-2 bg-transparent border border-black  text-black rounded-md font-semibold transform hidden md:block"
+                      : "nav-link"
+                  }
+                >
+                  <Link href={link.to}>
                     <span>{link.title}</span>
-                  </li>
-                </Link>
+                  </Link>
+                </li>
               ))}
             </ul>
           </nav>

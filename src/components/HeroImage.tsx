@@ -59,7 +59,7 @@ export default function HeroImage() {
       <div className="absolute top-0 left-[15%] w-[35%] max-w-[254px]">
         <div className="relative w-full aspect-[154/210]">
           <Image
-            src="https://framerusercontent.com/images/DzCSGqjqeAkMfxKmzzgT9RB54.png"
+            src="/img/laptop.webp"
             alt="Laptop"
             layout="fill"
             objectFit="contain"
@@ -71,10 +71,13 @@ export default function HeroImage() {
       <div className="absolute bottom-[5%] right-[5%] sm:right-[15%] w-[35%] max-w-[246px]">
         <div className="relative w-full aspect-[146/210]">
           <Image
-            src="https://framerusercontent.com/images/zRKMG1R90jjgPDYd3cukzOmasII.png"
+            src="/img/women.webp"
             alt="Woman"
-            layout="fill"
+            // layout="fill"
             objectFit="contain"
+            priority
+            height={354}
+            width={254}
           />
         </div>
       </div>

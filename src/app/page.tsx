@@ -46,8 +46,8 @@ function page() {
                 <div className="absolute right-12 -top-12 -z-10 animate-spin">
                   <Image
                     src="https://framerusercontent.com/images/mFr6YNitDQJTKmyUCjzzjzPbk.png"
-                    height={148}
-                    width={148}
+                    height={222}
+                    width={219}
                     alt=""
                   />
                 </div>

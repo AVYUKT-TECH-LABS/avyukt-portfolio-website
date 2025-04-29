@@ -256,7 +256,7 @@ export function LeadPopup() {
             <>
               <Image
                 className="mb-4"
-                src="/img/logo-new-cropped.png"
+                src="/img/logo-new-cropped.webp"
                 alt="AVYUKT TECH LABS"
                 width={40}
                 height={40}
