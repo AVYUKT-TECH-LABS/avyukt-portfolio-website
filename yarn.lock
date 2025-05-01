@@ -2517,6 +2517,18 @@
     "@swc/counter" "^0.1.3"
     tslib "^2.4.0"
 
+"@tabler/icons-react@^3.31.0":
+  version "3.31.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons-react/-/icons-react-3.31.0.tgz#47bd53bba028f73c9756e4088b48ae1c13be2747"
+  integrity sha512-2rrCM5y/VnaVKnORpDdAua9SEGuJKVqPtWxeQ/vUVsgaUx30LDgBZph7/lterXxDY1IKR6NO//HDhWiifXTi3w==
+  dependencies:
+    "@tabler/icons" "3.31.0"
+
+"@tabler/icons@3.31.0":
+  version "3.31.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-3.31.0.tgz#92d39dc336f2e3e312170420b00ffe9ca474925e"
+  integrity sha512-dblAdeKY3+GA1U+Q9eziZ0ooVlZMHsE8dqP0RkwvRtEsAULoKOYaCUOcJ4oW1DjWegdxk++UAt2SlQVnmeHv+g==
+
 "@tanstack/react-table@^8.16.0":
   version "8.20.5"
   resolved "https://registry.yarnpkg.com/@tanstack/react-table/-/react-table-8.20.5.tgz#19987d101e1ea25ef5406dce4352cab3932449d8"
@@ -4758,6 +4770,15 @@ framer-motion@^11.8.0:
   dependencies:
     tslib "^2.4.0"
 
+framer-motion@^12.9.2:
+  version "12.9.2"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.9.2.tgz#d6b5f7c9553da17a4d92db293eebfbbf97bd4c33"
+  integrity sha512-R0O3Jdqbfwywpm45obP+8sTgafmdEcUoShQTAV+rB5pi+Y1Px/FYL5qLLRe5tPtBdN1J4jos7M+xN2VV2oEAbQ==
+  dependencies:
+    motion-dom "^12.9.1"
+    motion-utils "^12.8.3"
+    tslib "^2.4.0"
+
 from2@^2.1.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/from2/-/from2-2.3.0.tgz#8bfb5502bde4a4d36cfdeea007fcca21d7e382af"
@@ -6141,6 +6162,26 @@ moment@^2.29.4:
   version "2.30.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.30.1.tgz#f8c91c07b7a786e30c59926df530b4eac96974ae"
   integrity sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==
+
+motion-dom@^12.9.1:
+  version "12.9.1"
+  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-12.9.1.tgz#1e128c7db7f98994a305933df3b11d47b7467085"
+  integrity sha512-xqXEwRLDYDTzOgXobSoWtytRtGlf7zdkRfFbrrdP7eojaGQZ5Go4OOKtgnx7uF8sAkfr1ZjMvbCJSCIT2h6fkQ==
+  dependencies:
+    motion-utils "^12.8.3"
+
+motion-utils@^12.8.3:
+  version "12.8.3"
+  resolved "https://registry.yarnpkg.com/motion-utils/-/motion-utils-12.8.3.tgz#d72bd9712574266088f0903f69466a9d3ad206c4"
+  integrity sha512-GYVauZEbca8/zOhEiYOY9/uJeedYQld6co/GJFKOy//0c/4lDqk0zB549sBYqqV2iMuX+uHrY1E5zd8A2L+1Lw==
+
+motion@^12.9.2:
+  version "12.9.2"
+  resolved "https://registry.yarnpkg.com/motion/-/motion-12.9.2.tgz#a604d58850637716c2874a0f2e4f2e4842ebe0b4"
+  integrity sha512-2hwi4wlOpt/zDHcDZATL2FFhYgj2n6t5Hd0UT91swMup6dx6KpFRkTydYJkkV0PUImT1QfC+WT5d0eRekTKpcg==
+  dependencies:
+    framer-motion "^12.9.2"
+    tslib "^2.4.0"
 
 ms@2.0.0:
   version "2.0.0"

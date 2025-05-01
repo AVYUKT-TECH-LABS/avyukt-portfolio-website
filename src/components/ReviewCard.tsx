@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ReviewCard() {
   return (
-    <div className="flex items-center gap-3">
+    <div className="flex items-center md:justify-start justify-center gap-3">
       {/* Company logo */}
       <div className="relative w-12 h-12 flex-shrink-0">
         <Image

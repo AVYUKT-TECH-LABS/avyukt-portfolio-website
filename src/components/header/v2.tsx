@@ -43,9 +43,9 @@ const navLinks: {
 
 function Header() {
   return (
-    <header className="bg-white w-full">
-      {/* <div className="border-b border-gray-200 py-3 w-full bg-[#34f092]">
-        <div className="w-full md:container md:mx-auto md:max-w-7xl bg-[#34f092]">
+    <header className="bg-white w-full fixed top-0 inset-x-0 z-10 shadow">
+      {/* <div className="border-b border-gray-200 py-3 w-full bg-[#134A45]">
+        <div className="w-full md:container md:mx-auto md:max-w-7xl bg-[#134A45]">
           <div className="flex flex-row items-center justify-center md:justify-between">
             <span></span>
             <div className="flex flex-row items-center divide-x divide-gray-200 space-x-2 text-sm text-gray-700">
@@ -81,7 +81,7 @@ function Header() {
                   key={link.id}
                   className={
                     link.isCTA
-                      ? "shadow-[0_0_0_1px_#000000_inset] hover:bg-[#34f092] px-4 py-2 bg-transparent border border-black  text-black rounded-md font-semibold transform hidden md:block"
+                      ? "shadow-[0_0_0_1px_#000000_inset] hover:bg-[#134A45] px-4 py-2 bg-transparent border border-black  text-black rounded-md font-semibold transform hidden md:block"
                       : "nav-link"
                   }
                 >
@@ -94,10 +94,10 @@ function Header() {
           </nav>
           <div>
             <Link
-              className="bg-black px-4 py-2 text-white rounded-md font-medium transform hidden md:block"
+              className="bg-brand px-4 py-2 text-white rounded-md font-medium transform hidden md:block"
               href="/contact"
             >
-              Contact Us
+              Get Free Quote
             </Link>
           </div>
         </div>

@@ -104,8 +104,8 @@ export default function page() {
                     backgroundPosition: "center center",
                 }}
             >
-                <div className="flex-1 bg-black bg-opacity-80 py-16">
-                    <div className="flex flex-col items-center justify-center">
+                <div className="flex-1 bg-black bg-opacity-80 py-32 md:py-16">
+                    <div className="flex flex-col items-center justify-center md:pt-0 pt-24">
                         <h1 className="text-4xl text-white font-semibold text-center">
                             Static Website Development
                         </h1>

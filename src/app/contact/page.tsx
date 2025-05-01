@@ -1,13 +1,11 @@
-import ContactUs from '@/components/ContactUs'
-import Header from '@/components/header/header'
-import ConnectWithUs from '@/components/shared/ConnectWithUs'
-import Image from 'next/image'
-import React from 'react'
+import ContactUs from "@/components/ContactUs";
 
 const page = () => {
   return (
-    <ContactUs />
-  )
-}
+    <div className="mt-20">
+      <ContactUs />
+    </div>
+  );
+};
 
-export default page
+export default page;

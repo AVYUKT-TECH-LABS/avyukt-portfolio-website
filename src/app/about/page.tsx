@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function page() {
   return (
-    <article>
+    <article className="pt-12">
       {/* <section>
         <div
           style={{
@@ -24,7 +24,7 @@ function page() {
           </div>
         </div>
       </section> */}
-      <section className="py-12 md:py-32 md:pb-12">
+      <section className="py-24 md:py-32 md:pb-12">
         <div className="w-full md:container md:mx-auto md:max-w-8xl">
           <div className="flex flex-col md:flex-row items-center md:space-x-20 justify-center space-y-12 md:space-y-0 md:justify-end x-4 md:px-0">
             <div className="flex flex-col space-y-8 md:w-1/2">
@@ -92,7 +92,7 @@ function page() {
         </div>
       </section>
       <section className="py-12 md:py-12">
-        <div className="w-full bg-[#34f092]">
+        <div className="w-full bg-[#134A45]">
           <div className="max-w-6xl mx-auto p-6 flex flex-row items-center justify-center">
             <p className="font-bold text-3xl text-white text-center">
               Creative web design & development
@@ -130,21 +130,21 @@ function page() {
             <div className="flex flex-col items-center justify-between w-full">
               <h3 className="box-title text-center">What we do?</h3>
               <div className="grid md:grid-cols-3 grid-cols-1 gap-8 w-full">
-                <div className="col-span-1 rounded-xl p-4 border-2 border-[#34f092] flex flex-col bg-green-50/40 space-y-2">
+                <div className="col-span-1 rounded-xl p-4 border-2 border-[#134A45] flex flex-col bg-green-50/40 space-y-2">
                   <h4 className="text-xl font-semibold">Web Designing</h4>
                   <p>
                     Our whole aim is to design visually attractive websites to
                     grab the attention of your customers.
                   </p>
                 </div>
-                <div className="col-span-1 rounded-xl p-4 border-2 border-[#34f092] flex flex-col bg-green-50/40 space-y-2">
+                <div className="col-span-1 rounded-xl p-4 border-2 border-[#134A45] flex flex-col bg-green-50/40 space-y-2">
                   <h4 className="text-xl font-semibold">Web Development</h4>
                   <p>
                     Apart from creating visually attractive websites, we are
                     also experts in web development.
                   </p>
                 </div>
-                <div className="col-span-1 rounded-xl p-4 border-2 border-[#34f092] flex flex-col bg-green-50/40 space-y-2">
+                <div className="col-span-1 rounded-xl p-4 border-2 border-[#134A45] flex flex-col bg-green-50/40 space-y-2">
                   <h4 className="text-xl font-semibold">
                     Mobile app development
                   </h4>

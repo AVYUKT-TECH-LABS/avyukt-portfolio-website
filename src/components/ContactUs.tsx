@@ -72,25 +72,25 @@ function ContactUs() {
           backgroundPosition: "center center",
         }}
       >
-        <div className="flex-1 bg-[#34f092] bg-opacity-90 py-4 md:py-12">
+        <div className="flex-1 bg-[#134A45] bg-opacity-90 py-4 md:py-12">
           <div className="md:container md:mx-auto md:max-w-6xl w-full">
             <div className="flex flex-col md:flex-row items-center justify-center md:justify-between px-4 md:px-0">
               <div className="flex flex-col md:py-12 space-y-6 items-center">
                 <div className="relative hidden md:block">
                   <h2 className="theme-headline">
-                    <p className="mt-4 text-4xl md:text-5xl text-black font-extrabold">
+                    <p className="mt-4 text-4xl md:text-5xl text-white font-extrabold">
                       Contact us for robust web design & development services in
                       India
                     </p>
                   </h2>
                 </div>
                 <div className="block md:hidden">
-                  <h2 className="text-4xl font-semibold text-left">
+                  <h2 className="text-4xl font-semibold text-left text-white">
                     Contact Us
                   </h2>
                 </div>
                 <div>
-                  <p className="leading-7 text-center md:text-left text-lg text-black font-medium">
+                  <p className="leading-7 text-center md:text-left text-lg text-white font-medium">
                     As the best web design and development service provider, we
                     guarantee the highest caliber web design service at
                     competitive rates to support the online success of your
@@ -159,7 +159,7 @@ function ContactUs() {
                       className="cta-btn !py-3"
                       disabled={isSubmitting}
                     >
-                      {isSubmitting ? "Sending..." : "Contact Us"}
+                      {isSubmitting ? "Please wait..." : "Get Quote"}
                     </button>
 
                     {submitStatus === "success" && (

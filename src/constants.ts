@@ -3,7 +3,7 @@ export const themeColors = [
   "#fb5457",
   "#9c34f0",
   "#f07f34",
-  "#34f092",
+  "#134A45",
   "#f0b934",
   "#f034b4",
 ];

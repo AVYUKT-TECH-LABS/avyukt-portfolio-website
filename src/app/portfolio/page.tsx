@@ -34,7 +34,7 @@ const projects = [
     title: "Buildocare",
     url: "https://buildocare.com",
     description:
-      "For Internspace, an internships platform, we developed a streamlined and user-friendly website that connects students with valuable internship opportunities seamlessly.",
+      "We revamped Buildocare's online presence by developing a responsive website that showcases their 2D plans, 3D views, and structural drawings. The new design emphasizes user experience, allowing potential clients to easily navigate through services and understand the importance of structural safety in home design.",
     image: "/img/portfolio/buildocare.png",
   },
   {
@@ -42,7 +42,7 @@ const projects = [
     title: "Adrotack",
     url: "https://adrotack.com",
     description:
-      "For Internspace, an internships platform, we developed a streamlined and user-friendly website that connects students with valuable internship opportunities seamlessly.",
+      "We developed a comprehensive website for Adrotack that clearly outlines their services, including accounting, medical billing, mortgage solutions, and IT support. The site features intuitive navigation and detailed service descriptions, ensuring clients can easily find information relevant to their needs.",
     image: "/img/portfolio/adrotack.png",
   },
   {
@@ -50,7 +50,7 @@ const projects = [
     title: "Cloud Cred",
     url: "https://cloudcred.in",
     description:
-      "For Internspace, an internships platform, we developed a streamlined and user-friendly website that connects students with valuable internship opportunities seamlessly.",
+      "We developed a responsive, user-friendly website that clearly communicates CloudCred's value proposition. The site guides users through the process of applying for financing, highlighting benefits such as cash flow flexibility and growth-oriented support.",
     image: "/img/portfolio/cloud-cred.png",
   },
   {
@@ -58,7 +58,7 @@ const projects = [
     title: "Talentxcel",
     url: "https://talentxcel.co.in",
     description:
-      "For Internspace, an internships platform, we developed a streamlined and user-friendly website that connects students with valuable internship opportunities seamlessly.",
+      "We developed a responsive and user-friendly website that clearly outlines TalentXcel's comprehensive services, including staffing, training, recruitment, IT consulting, and managed services. The site features intuitive navigation and detailed service descriptions, ensuring clients can easily find information relevant to their needs.​",
     image: "/img/portfolio/txcl.png",
   },
   {
@@ -66,7 +66,7 @@ const projects = [
     title: "Talentxcel Platform",
     url: "https://staging.talentxcel.net",
     description:
-      "For Internspace, an internships platform, we developed a streamlined and user-friendly website that connects students with valuable internship opportunities seamlessly.",
+      "We developed a comprehensive platform featuring a resume builder, job matching, application tracking, and professional feedback tools. The platform allows users to create tailored resumes, apply for jobs with one click, and receive expert guidance to enhance their applications.",
     image: "/img/portfolio/txcl-plat.jpeg",
   },
   {
@@ -154,7 +154,7 @@ export default function Page() {
     };
   }, [showPreview]);
   return (
-    <article className="w-full">
+    <article className="w-full pt-24">
       <section>
         <div
           style={{
@@ -182,7 +182,24 @@ export default function Page() {
                   <p className=" text-center">Some of our premium work</p>
                 </h2>
                 <p className="text-center mt-4">
-                  At <Link href="/" className="text-amber-500">Avyukt Tech Labs</Link>, we take pride in our website design and eCommerce development portfolio. Each project is a testament to our creativity and technical expertise. With a focus on user-centric design and cutting-edge development, we craft websites that captivate, engage, and deliver results. Explore our portfolio to see how we&aops;ve helped businesses like yours thrive in the digital landscape. From sleek, responsive designs to e-commerce solutions that boost sales, our work speaks for itself. Join our satisfied clients and embark on a journey toward digital excellence with  <Link href="/" className="text-amber-500">Avyukt Tech Labs</Link>.
+                  At{" "}
+                  <Link href="/" className="text-amber-500">
+                    Avyukt Tech Labs
+                  </Link>
+                  , we take pride in our website design and eCommerce
+                  development portfolio. Each project is a testament to our
+                  creativity and technical expertise. With a focus on
+                  user-centric design and cutting-edge development, we craft
+                  websites that captivate, engage, and deliver results. Explore
+                  our portfolio to see how we&aops;ve helped businesses like
+                  yours thrive in the digital landscape. From sleek, responsive
+                  designs to e-commerce solutions that boost sales, our work
+                  speaks for itself. Join our satisfied clients and embark on a
+                  journey toward digital excellence with{" "}
+                  <Link href="/" className="text-amber-500">
+                    Avyukt Tech Labs
+                  </Link>
+                  .
                 </p>
               </div>
             </div>

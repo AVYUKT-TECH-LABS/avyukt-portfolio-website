@@ -18,7 +18,7 @@ footer {
 }
 
 .custom-container {
-  @apply max-w-6xl mx-auto;
+  @apply max-w-7xl mx-auto;
 }
 
 /* h1,
@@ -84,7 +84,7 @@ h6 {
 }
 
 .cta-btn:hover {
-    background-color: #34f092;
+    background-color: #134A45;
     font-weight: 600;
     transition-duration: .1s !important;
     color: #000 !important;

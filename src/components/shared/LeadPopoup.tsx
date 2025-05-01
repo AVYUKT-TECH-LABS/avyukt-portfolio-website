@@ -221,7 +221,7 @@ export function LeadPopup() {
     return (
       <button
         onClick={() => setIsOpen(true)}
-        className="bg-[#34f092] px-10 py-4 text-black rounded-lg font-semibold transition duration-400 group md:w-1/2 w-full flex items-center justify-center"
+        className="bg-[#134A45] px-10 py-4 text-white rounded-lg font-semibold transition duration-400 group md:w-1/2 w-full flex items-center justify-center"
       >
         <span className="flex flex-row items-center justify-center space-x-3 w-full">
           <span>Get Free Quote</span>
@@ -277,7 +277,7 @@ export function LeadPopup() {
 
                 <div className="mt-3 h-2 w-full overflow-hidden rounded-full bg-gray-200">
                   <div
-                    className="h-full bg-[#34f092] transition-all duration-300"
+                    className="h-full bg-[#134A45] transition-all duration-300"
                     style={{ width: `${(currentStep / totalSteps) * 100}%` }}
                   ></div>
                 </div>
@@ -636,7 +636,7 @@ export function LeadPopup() {
                   type="button"
                   onClick={handleNext}
                   disabled={isSubmitting}
-                  className="bg-white border border-black text-black hover:border-[#34f092] hover:bg-[#34f092]"
+                  className="bg-white border border-black text-black hover:border-[#134A45] hover:bg-[#134A45]"
                 >
                   {isSubmitting ? (
                     <div className="flex items-center">
@@ -671,7 +671,7 @@ export function LeadPopup() {
               </p>
               <Button
                 onClick={() => setIsOpen(false)}
-                className="bg-white border border-black text-black hover:border-[#34f092] hover:bg-[#34f092]"
+                className="bg-white border border-black text-black hover:border-[#134A45] hover:bg-[#134A45]"
               >
                 Close
               </Button>
