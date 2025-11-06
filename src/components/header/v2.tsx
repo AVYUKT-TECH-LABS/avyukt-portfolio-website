@@ -1,3 +1,4 @@
+import { Mail, Phone } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -44,17 +45,29 @@ const navLinks: {
 function Header() {
   return (
     <header className="bg-white w-full fixed top-0 inset-x-0 z-10 shadow">
-      {/* <div className="border-b border-gray-200 py-3 w-full bg-[#134A45]">
-        <div className="w-full md:container md:mx-auto md:max-w-7xl bg-[#134A45]">
+      <div className="border-b border-gray-200 py-3 w-full bg-[#134A45]">
+        <div className="w-full md:container md:mx-auto bg-[#134A45]">
           <div className="flex flex-row items-center justify-center md:justify-between">
             <span></span>
-            <div className="flex flex-row items-center divide-x divide-gray-200 space-x-2 text-sm text-gray-700">
-              <span>(+91) 8178392040</span>
-              <span className="pl-2">divyansh@avyuktlabs.in</span>
+            <div className="flex flex-row items-center divide-x divide-gray-200 space-x-2 text-sm text-white font-semibold">
+              <a
+                href="call:(+91) 9625871682"
+                className="flex flex-row items-center gap-x-2"
+              >
+                <Phone size={16} />
+                (+91) 9625871682
+              </a>
+              <a
+                href="mailto:divyansh@avyuktlabs.in"
+                className="flex flex-row items-center gap-x-2 pl-2"
+              >
+                <Mail size={16} />
+                divyansh@avyuktlabs.in
+              </a>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
       <div
         id="main-nav"
         className="min-h-[92px] items-center justify-center flex flex-col sticky top-0 bg-white z-10"

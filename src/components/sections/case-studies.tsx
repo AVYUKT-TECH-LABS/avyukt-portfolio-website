@@ -15,23 +15,23 @@ import Rating from "../ui/rating";
 const studies = [
   {
     image: "img/internspace.webp",
-    logo: "img/clients/internspace-logo.png",
+    logo: "img/clients/internspace-logo.avif",
     title: "🚀 100+ Daily Signups, All Organic",
     color: "#8e54db",
     description:
       "We were just starting out and had no marketing budget, so our website had to do all the work. The team built a fast, intuitive platform and optimized it for SEO right from day one. Within weeks, we started seeing a surge in organic signups—and now we consistently get over 100 new users registering every single day. It’s honestly been game-changing for our growth.",
   },
   {
-    image: "img/portfolio/adrotack.png",
-    logo: "img/clients/adrotack.png",
+    image: "img/portfolio/adrotack.avif",
+    logo: "img/clients/adrotack.avif",
     title: "📈 8% Revenue Growth from SEO Optimization",
     color: "#00b0f0",
     description:
       "Our website just wasn’t showing up where it mattered. After working with the team, our SEO was completely revamped—better structure, faster load times, and optimized content. The result? More qualified leads, higher search rankings, and an 8% increase in revenue. It’s the first time our website has become a real asset to our sales pipeline.",
   },
   {
-    image: "img/portfolio/buildocare.png",
-    logo: "img/clients/buildocare.png",
+    image: "img/portfolio/buildocare.avif",
+    logo: "img/clients/buildocare.avif",
     title: "🏗️ 3x More Project Inquiries in Just 2 Months",
     color: "#012353b3",
     description:

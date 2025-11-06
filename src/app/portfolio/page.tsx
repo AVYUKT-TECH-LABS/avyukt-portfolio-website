@@ -6,20 +6,28 @@ import { useEffect, useState } from "react";
 
 const projects = [
   {
+    id: 17,
+    title: "Monkville",
+    url: "https://monkville.in",
+    description:
+      "For Internspace, an internships platform, we developed a streamlined and user-friendly website that connects students with valuable internship opportunities seamlessly.",
+    image: "/img/portfolio/monkville.avif",
+  },
+  {
     id: 9,
     title: "Internspace",
     url: "https://internspace.in",
     description:
       "For Internspace, an internships platform, we developed a streamlined and user-friendly website that connects students with valuable internship opportunities seamlessly.",
-    image: "/img/internspace.webp",
+    image: "/img/portfolio/internspace.avif",
   },
   {
-    id: 9,
+    id: 16,
     title: "Internspace Employers",
     url: "https://internspace.in/hire-talent",
     description:
       "For Internspace, an internships platform, we developed a streamlined and user-friendly website that connects students with valuable internship opportunities seamlessly.",
-    image: "/img/portfolio/ispace.png",
+    image: "/img/portfolio/ispace.avif",
   },
   {
     id: 15,
@@ -27,7 +35,7 @@ const projects = [
     url: "https://play.google.com/store/apps/details?id=in.internspace.app",
     description:
       "For Internspace, an internships platform, we developed a streamlined and user-friendly website that connects students with valuable internship opportunities seamlessly.",
-    image: "/img/portfolio/ispace-app.png",
+    image: "/img/portfolio/ispace-app.avif",
   },
   {
     id: 10,
@@ -35,7 +43,7 @@ const projects = [
     url: "https://buildocare.com",
     description:
       "We revamped Buildocare's online presence by developing a responsive website that showcases their 2D plans, 3D views, and structural drawings. The new design emphasizes user experience, allowing potential clients to easily navigate through services and understand the importance of structural safety in home design.",
-    image: "/img/portfolio/buildocare.png",
+    image: "/img/portfolio/buildocare.avif",
   },
   {
     id: 11,
@@ -43,7 +51,7 @@ const projects = [
     url: "https://adrotack.com",
     description:
       "We developed a comprehensive website for Adrotack that clearly outlines their services, including accounting, medical billing, mortgage solutions, and IT support. The site features intuitive navigation and detailed service descriptions, ensuring clients can easily find information relevant to their needs.",
-    image: "/img/portfolio/adrotack.png",
+    image: "/img/portfolio/adrotack.avif",
   },
   {
     id: 14,
@@ -51,7 +59,7 @@ const projects = [
     url: "https://cloudcred.in",
     description:
       "We developed a responsive, user-friendly website that clearly communicates CloudCred's value proposition. The site guides users through the process of applying for financing, highlighting benefits such as cash flow flexibility and growth-oriented support.",
-    image: "/img/portfolio/cloud-cred.png",
+    image: "/img/portfolio/cloud-cred.avif",
   },
   {
     id: 12,
@@ -59,7 +67,7 @@ const projects = [
     url: "https://talentxcel.co.in",
     description:
       "We developed a responsive and user-friendly website that clearly outlines TalentXcel's comprehensive services, including staffing, training, recruitment, IT consulting, and managed services. The site features intuitive navigation and detailed service descriptions, ensuring clients can easily find information relevant to their needs.​",
-    image: "/img/portfolio/txcl.png",
+    image: "/img/portfolio/txcl.avif",
   },
   {
     id: 13,
@@ -67,7 +75,7 @@ const projects = [
     url: "https://staging.talentxcel.net",
     description:
       "We developed a comprehensive platform featuring a resume builder, job matching, application tracking, and professional feedback tools. The platform allows users to create tailored resumes, apply for jobs with one click, and receive expert guidance to enhance their applications.",
-    image: "/img/portfolio/txcl-plat.jpeg",
+    image: "/img/portfolio/txcl-plat.avif",
   },
   {
     id: 1,
@@ -75,7 +83,8 @@ const projects = [
     url: "https://themewagon.github.io/LifeSure/",
     description:
       "We developed a comprehensive website for LifeSure, a health insurance company, ensuring seamless user navigation and easy access to essential insurance information and services.",
-    image: "https://themewagon.com/wp-content/uploads/2024/07/LIfeSure.webp",
+    image:
+      "https://themewagon.com/wp-content/uploads/2024/07/LIfeSure-300x300.webp",
   },
   {
     id: 2,
@@ -154,7 +163,7 @@ export default function Page() {
     };
   }, [showPreview]);
   return (
-    <article className="w-full pt-24">
+    <article className="w-full mt-[135px]">
       <section>
         <div
           style={{
@@ -167,7 +176,7 @@ export default function Page() {
           <div className="flex-1 bg-black bg-opacity-60 py-12">
             <div className="flex flex-col items-center justify-center">
               <h1 className="text-4xl text-white font-semibold text-center">
-                Portfolio
+                Our Portfolio
               </h1>
             </div>
           </div>

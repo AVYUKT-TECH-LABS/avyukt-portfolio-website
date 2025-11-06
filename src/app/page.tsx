@@ -76,11 +76,14 @@ function page() {
                     alt=""
                   />
                 </div>
-                <h2 className="text-black md:text-[72px] text-[54px] md:text-left text-center font-[800]" style={{
-                  lineHeight: "72px"
-                }}>
+                <h1
+                  className="text-black md:text-[72px] text-[54px] md:text-left text-center font-[800]"
+                  style={{
+                    lineHeight: "72px",
+                  }}
+                >
                   Websites that Drives Sales and Growth for Your Business
-                </h2>
+                </h1>
               </div>
               <div>
                 <p className="text-gray-600 leading-8 md:text-2xl text-lg md:text-left text-center">

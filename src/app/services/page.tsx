@@ -70,7 +70,7 @@ const services: {
 
 const Page = () => {
   return (
-    <article className="pt-16">
+    <article className="mt-[135px]">
       <section>
         <div
           style={{

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function page() {
   return (
-    <article className="pt-12">
+    <article className="mt-[135px]">
       {/* <section>
         <div
           style={{
@@ -29,10 +29,10 @@ function page() {
           <div className="flex flex-col md:flex-row items-center md:space-x-20 justify-center space-y-12 md:space-y-0 md:justify-end x-4 md:px-0">
             <div className="flex flex-col space-y-8 md:w-1/2">
               <div className="relative hidden md:block">
-                <h2 className="theme-headline">
+                <span className="theme-headline">
                   <span className="heading">About </span>
-                  <p className="-mt-4">Company Overview</p>
-                </h2>
+                  <h1 className="-mt-4">Company Overview</h1>
+                </span>
               </div>
               <div className="block md:hidden">
                 <h4 className="text-5xl font-semibold text-center md:text-left">
