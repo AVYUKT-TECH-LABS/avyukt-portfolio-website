@@ -10,7 +10,7 @@ const projects = [
     title: "Monkville",
     url: "https://monkville.in",
     description:
-      "For Internspace, an internships platform, we developed a streamlined and user-friendly website that connects students with valuable internship opportunities seamlessly.",
+      "We partnered with Monkville to design and develop their official brand website — a fast, modern, and conversion-focused platform that reflects their clean, health-driven identity. Our team handled the entire front-end architecture, UX design, and CMS integration, ensuring a seamless experience across all devices. The result is a high-performance site optimized for storytelling, product showcasing, and SEO — helping Monkville strengthen its digital presence and scale its e-commerce operations effortlessly.",
     image: "/img/portfolio/monkville.avif",
   },
   {
