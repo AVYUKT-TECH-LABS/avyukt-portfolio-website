@@ -2,6 +2,22 @@ import ContactUs from "@/components/ContactUs";
 import BlogPosts from "@/components/shared/BlogPosts";
 import PricingTable from "@/components/shared/PricingTable";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Ecommerce Website Design & Development | Avyukt Labs",
+  description: "Expert ecommerce website development with stunning design. Create mobile responsive online stores with user-friendly shopping carts, secure checkout, and powerful features.",
+  keywords: [
+    "ecommerce website development",
+    "ecommerce web development",
+    "ecommerce website design",
+    "ecommerce development company",
+    "ecommerce website builders",
+    "online store development services",
+    "best ecommerce website design in dubai",
+    "cms based ecommerce website services"
+  ],
+};
 
 const packages = [
     {
@@ -105,129 +121,105 @@ export default function page() {
             <div className="flex-1 bg-black bg-opacity-80 py-48">
               <div className="flex flex-col items-start justify-center px-4 max-w-6xl mx-auto">
                 <h1 className="text-4xl text-white font-semibold">
-                  Ecommerce Website Design &<br />
-                  Development Services
+                  Ecommerce Website Development That Grows Your Business — Not Just Your Website
                 </h1>
                 <p className="text-white mt-4 leading-relaxed font-light">
-                  Enhance your online business with tailored eCommerce website
-                  design solutions.
-                  <br />
-                  Our team combines the latest tech and a smart strategic
-                  approach to create feature rich
-                  <br />
-                  eCommerce stores that make users happy, boost sales, and
-                  optimize conversion rates.
+                  Your website should do more than just exist online. It should attract customers, build trust, and generate sales 24/7. At Avyukt Tech Labs, we create powerful, conversion-focused ecommerce website development solutions that help businesses stand out, sell more, and scale faster in today’s competitive digital world.
                 </p>
-                <ul className="grid grid-cols-2 gap-12 mt-6 text-white list-disc ml-4 font-light">
-                  <div>
-                    <li>Mobile Responsive Design</li>
-                    <li>Easy Product Management</li>
-                    <li>Multi-Lingual Support</li>
-                  </div>
-                  <div>
-                    <li>Custom Ecommerce Design</li>
-                    <li>Payment & Shipping</li>
-                    <li>Multi-Currency Support</li>
-                  </div>
-                </ul>
-                <div className="flex flex-row items-center space-x-4 mt-6">
-                  <Link
-                    href="contact"
-                    className="bg-yellow-600 text-white font-medium rounded-full py-2 px-4 hover:bg-yellow-700 border border-white"
-                  >
-                    <span>Request a Consultation</span>
-                  </Link>
-                  <Link
-                    href="#ecommerce-packages"
-                    className="bg-yellow-600 text-white font-medium rounded-full py-2 px-4 hover:bg-yellow-700 border border-white"
-                  >
-                    <span>See Ecommerce Packages</span>
-                  </Link>
-                </div>
+                <p className="text-white mt-4 leading-relaxed font-light">
+                  We don’t believe in copy-paste designs or generic development. We build real ecommerce websites for real businesses—websites that look premium, load fast, and turn visitors into paying customers.
+                </p>
               </div>
             </div>
           </div>
         </section>
-        <section className="py-12 pb-4 px-4 md:px-0" id="ecommerce-packages">
+        <section className="py-12 pb-4 px-4 md:px-0">
           <div className="container mx-auto max-w-6xl">
             <div className="flex flex-col space-y-6 justify-between">
               <div>
-                <h2 className="font-bold text-2xl text-center">
-                  Our Ecommerce Website Development Packages
-                </h2>
+                <h2 className="font-bold text-2xl">Ecommerce Web Development Designed for Sales & Scalability</h2>
               </div>
               <div>
-                <p className="text-center">
-                  If you&aops;re new to e-commerce, you might be wondering how
-                  to set up a successful online store with minimal tech
-                  know-how, time, and investment. Don&aops;t worry; you&aops;re
-                  in the right place.{" "}
-                  <Link className="text-amber-500" href="/">
-                    Avyukt Tech Labs
-                  </Link>{" "}
-                  has all the tools you need to make online selling easy. We
-                  offer packages from basic to fully customized enterprise
-                  websites, all with a focus on quality. Check out the package
-                  options presented below.
+                <p>
+                  A successful online store needs more than good looks. It needs speed, security, and smart functionality. Our ecommerce web development services are crafted to deliver smooth user experiences that customers trust and love.
                 </p>
+                <ul className="list-disc list-inside space-y-2 mt-2">
+                  <li>Fast-loading, mobile-first performance</li>
+                  <li>Secure payment gateway integrations</li>
+                  <li>Easy product & order management</li>
+                  <li>SEO-friendly structure for higher Google rankings</li>
+                  <li>Scalable architecture for future growth</li>
+                </ul>
               </div>
-              <PricingTable packages={packages} />
             </div>
           </div>
         </section>
-        <section className="py-12 pb-4 px-4 md:px-0" id="ecom-packages">
-          <div className="container mx-auto max-w-7xl">
+        <section className="py-12 pb-4 px-4 md:px-0">
+          <div className="container mx-auto max-w-6xl">
             <div className="flex flex-col space-y-6 justify-between">
               <div>
-                <h2 className="font-bold text-2xl text-center">
-                  Avyukt Tech Labs - A Leading eCommerce Website Development
-                  Company
-                </h2>
+                <h2 className="font-bold text-2xl">Ecommerce Website Design That Converts Visitors into Buyers</h2>
               </div>
               <div>
-                <p className="text-center leading-relaxed">
-                  Our steadfast dedication to offering custom eCommerce
-                  solutions made to meet the particular needs of each customer
-                  is what distinguishes{" "}
-                  <Link className="text-amber-500" href="/">
-                    Avyukt Tech Labs
-                  </Link>
-                  . We are successful in a number of sectors, including
-                  electronics, fashion, retail, and more.Beyond development, we
-                  also offer design, UX optimisation,smooth payment integration,
-                  and reliable backend management solutions.We have established
-                  a solid reputation for delivering projects on time, within
-                  budget, and with the best possible levels of functionality and
-                  quality. Our customer-focused methodology guarantees that
-                  companies obtain not just a website but also an effective
-                  instrument for boosting revenue and interacting with clients.
-                  Our significant portfolio of eCommerce systems and successful
-                  track record attest to our proficiency and commitment to
-                  quality in eCommerce website creation.
-                  <br />
-                  <br />
-                  With 12 years of experience in the field,{" "}
-                  <Link className="text-amber-500" href="/">
-                    Avyukt Tech Labs
-                  </Link>{" "}
-                  is an established eCommerce{" "}
-                  <Link className="text-amber-500" href="/">
-                    website development company
-                  </Link>{" "}
-                  based in India. We have been in the forefront of creating
-                  dynamic online shopping systems that enable businesses in the
-                  digital arena since our founding in 2024. To provide creative
-                  solutions to a wide range of clients, our committed team of
-                  skilled developers,designers, and strategists collaborates.
-                  <br />
-                  <br />
-                  <b>
-                    Package can be customized as per your requirement. If you
-                    have something specific in requirement please don&aops;t
-                    forget to mention it.
-                  </b>
+                <p>
+                  Design plays a major role in buying decisions. That’s why our ecommerce website design focuses on user behavior, trust signals, and conversion strategy—not just visuals.
+                </p>
+                <ul className="list-disc list-inside space-y-2 mt-2">
+                  <li>Clean, modern, and brand-focused layouts</li>
+                  <li>Mobile-friendly responsive designs</li>
+                  <li>High-converting product pages</li>
+                  <li>Smooth navigation and fast checkout flow</li>
+                  <li>Strong call-to-actions that drive sales</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="py-12 pb-4 px-4 md:px-0">
+          <div className="container mx-auto max-w-6xl">
+            <div className="flex flex-col space-y-6 justify-between">
+              <div>
+                <h2 className="font-bold text-2xl">Why Businesses Trust Avyukt Tech Labs</h2>
+              </div>
+              <div>
+                <ul className="list-disc list-inside space-y-2">
+                  <li>Business-driven development strategy</li>
+                  <li>Transparent communication & support</li>
+                  <li>SEO-ready website foundation</li>
+                  <li>Affordable pricing with premium quality</li>
+                  <li>Long-term partnership mindset</li>
+                </ul>
+                <p className="mt-4">
+                  We don’t just build websites—we build digital assets that help you grow.
                 </p>
               </div>
+            </div>
+          </div>
+        </section>
+        <section className="py-12 pb-4 px-4 md:px-0">
+          <div className="container mx-auto max-w-6xl">
+            <div className="flex flex-col space-y-6 justify-between">
+              <div>
+                <h2 className="font-bold text-2xl">Let’s Create a High-Performance Website That Drives Business Growth</h2>
+              </div>
+              <div>
+                <p>
+                  If you’re looking for ecommerce website development, ecommerce web development, ecommerce website design, static web design services, or dynamic web development services, Avyukt Tech Labs is ready to deliver.
+                </p>
+                <p className="mt-4">
+                  Let’s create a website that attracts clients, builds trust, and increases revenue.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="py-12 pb-4 px-4 md:px-0">
+          <div className="container mx-auto max-w-6xl">
+            <div className="flex flex-col space-y-6 justify-between">
+              <div>
+                <h2 className="font-bold text-2xl">Our Ecommerce Website Packages</h2>
+              </div>
+              <PricingTable packages={packages} />
             </div>
           </div>
         </section>

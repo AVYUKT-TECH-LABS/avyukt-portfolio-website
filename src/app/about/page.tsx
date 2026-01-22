@@ -2,6 +2,24 @@ import Image from "next/image";
 import React from "react";
 import ContactUs from "@/components/ContactUs";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About AvyuktLabs | Leading Web, App & Digital Marketing Company",
+  description: "Learn about AvyuktLabs – a trusted IT company delivering web development, mobile app development & digital marketing solutions that drive growth and results.",
+  keywords: [
+    "about avyuktlabs",
+    "about avyukt tech labs",
+    "IT company about us",
+    "web development company india",
+    "app development company india",
+    "digital marketing company india",
+    "software development company",
+    "custom website development",
+    "mobile app development services",
+    "SEO company india"
+  ],
+};
 
 function page() {
   return (
@@ -24,13 +42,13 @@ function page() {
           </div>
         </div>
       </section> */}
-      <section className="py-24 md:py-32 md:pb-12">
+      <section className="py-24 md:py-32 md:pb-12 px-8">
         <div className="w-full md:container md:mx-auto md:max-w-8xl">
           <div className="flex flex-col md:flex-row items-center md:space-x-20 justify-center space-y-12 md:space-y-0 md:justify-end x-4 md:px-0">
             <div className="flex flex-col space-y-8 md:w-1/2">
               <div className="relative hidden md:block">
                 <span className="theme-headline">
-                  <span className="heading">About </span>
+                  <span className="heading">About Us</span>
                   <h1 className="-mt-4">Company Overview</h1>
                 </span>
               </div>
@@ -91,7 +109,7 @@ function page() {
           </div>
         </div>
       </section>
-      <section className="py-12 md:py-12">
+      <section className="py-12 md:py-12 px-8">
         <div className="w-full bg-[#134A45]">
           <div className="max-w-6xl mx-auto p-6 flex flex-row items-center justify-center">
             <p className="font-bold text-3xl text-white text-center">

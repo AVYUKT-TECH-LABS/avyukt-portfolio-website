@@ -2,6 +2,22 @@ import ContactUs from "@/components/ContactUs";
 import BlogPosts from "@/components/shared/BlogPosts";
 import PricingTable from "@/components/shared/PricingTable";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Professional Dynamic Web development Services | Avyukt Tech Labs",
+  description: "Expert dynamic web development services for growing businesses. Build mobile responsive dynamic websites with custom CMS, real-time updates, and user-friendly dashboards.",
+  keywords: [
+    "dynamic web development services",
+    "responsive dynamic website",
+    "SEO friendly dynamic websites",
+    "professional dynamic web design services",
+    "custom dynamic web design company",
+    "business dynamic website solutions",
+    "dynamic eCommerce website development",
+    "mobile responsive dynamic websites"
+  ],
+};
 
 const packages = [
     {
@@ -206,30 +222,106 @@ export default function page() {
           <div className="container mx-auto max-w-6xl">
             <div className="flex flex-col space-y-6 justify-between">
               <div>
-                <h2 className="font-bold text-2xl">What is dynamic website?</h2>
+                <h2 className="font-bold text-3xl mb-4">Dynamic Web Development Services That Truly Represent Your Brand</h2>
+                <p className="text-lg leading-relaxed">
+                  Your website is often the first impression people have of your business—and first impressions matter. At Avyukt Tech Labs, we believe a website should do more than just look good. It should tell your story, earn trust, and drive real results. That's why we deliver powerful, scalable dynamic web development services designed to help businesses grow in the real world, not just online.
+                </p>
+                <p className="text-lg leading-relaxed mt-4">
+                  We don't believe in cookie-cutter solutions. Every brand is different, and your website should reflect that.
+                </p>
               </div>
+
               <div>
-                <p>
-                  A <b>dynamic website</b> gives you the flexibility to change
-                  the content whenever you need to. They display different
-                  content on various pages, unlike{" "}
-                  <Link className="text-amber-500" href="/static-website">
-                    static websites
-                  </Link>{" "}
-                  that display the same content to all users. Dynamic websites
-                  are editable web pages. The user can easily modify these types
-                  of websites/web pages without any web design and development
-                  or any technical knowledge. We at{" "}
-                  <Link className="text-amber-500" href="/">
-                    Avyukt Tech Labs
-                  </Link>{" "}
-                  provide various affordable dynamic website design packages as
-                  per your requirements and budget.
-                  <br />
-                  <br />
-                  <span className="text-amber-500 text-lg">
-                    Content can be edited in dynamic website.
-                  </span>
+                <h2 className="font-bold text-2xl mb-4">Build Smarter with Professional Dynamic Web Design Services</h2>
+                <p className="text-lg leading-relaxed">
+                  A dynamic website is not just a trend—it's a necessity. Users today expect speed, interaction, and personalization. With our professional dynamic web design services, we create websites that respond to user behavior, update content in real time, and offer a smooth, engaging experience.
+                </p>
+                <p className="text-lg leading-relaxed mt-4">
+                  Our design philosophy is simple: Make it beautiful. Make it functional. Make it effective.
+                </p>
+                <p className="text-lg leading-relaxed mt-4">
+                  We focus on:
+                </p>
+                <ul className="list-disc list-inside space-y-2 mt-2 text-lg">
+                  <li>Clean and modern design that feels premium</li>
+                  <li>Easy navigation that users actually enjoy</li>
+                  <li>Thoughtful layouts that guide visitors naturally</li>
+                  <li>Brand-focused visuals that create credibility</li>
+                </ul>
+                <p className="text-lg leading-relaxed mt-4">
+                  Every element on your website has a purpose—to keep users engaged and encourage action.
+                </p>
+              </div>
+
+              <div>
+                <h2 className="font-bold text-2xl mb-4">Mobile Responsive Dynamic Websites That Perform Everywhere</h2>
+                <p className="text-lg leading-relaxed">
+                  Today, most users will visit your website from their phone before anything else. If your site doesn't perform well on mobile, you're already losing business. At Avyukt Tech Labs, we build mobile responsive dynamic websites that adapt perfectly to every screen size.
+                </p>
+                <p className="text-lg leading-relaxed mt-4">
+                  What this means for you:
+                </p>
+                <ul className="list-disc list-inside space-y-2 mt-2 text-lg">
+                  <li>Seamless experience on mobile, tablet, and desktop</li>
+                  <li>Faster loading times and smoother interactions</li>
+                  <li>Better Google rankings with mobile-first design</li>
+                  <li>Higher engagement and lower bounce rates</li>
+                </ul>
+                <p className="text-lg leading-relaxed mt-4">
+                  Your website will not just resize—it will rethink the experience for every device.
+                </p>
+              </div>
+
+              <div>
+                <h2 className="font-bold text-2xl mb-4">Dynamic Web Development Services That Scale With You</h2>
+                <p className="text-lg leading-relaxed">
+                  We design and develop websites that grow as your business grows. Whether you're a startup looking to establish your presence or an established brand aiming to scale, our dynamic web development services are built for long-term success.
+                </p>
+                <p className="text-lg leading-relaxed mt-4">
+                  Our expertise includes:
+                </p>
+                <ul className="list-disc list-inside space-y-2 mt-2 text-lg">
+                  <li>Custom dynamic website development</li>
+                  <li>CMS-based dynamic websites</li>
+                  <li>eCommerce and business websites</li>
+                  <li>Web applications and portals</li>
+                  <li>Database and API integrations</li>
+                  <li>Speed optimization and security implementation</li>
+                </ul>
+                <p className="text-lg leading-relaxed mt-4">
+                  We use modern technologies and best practices to ensure your website is fast, secure, SEO-friendly, and future-ready.
+                </p>
+              </div>
+
+              <div>
+                <h2 className="font-bold text-2xl mb-4">Why Businesses Trust Avyukt Tech Labs</h2>
+                <ul className="list-disc list-inside space-y-2 text-lg">
+                  <li>100% custom-built solutions</li>
+                  <li>Experienced designers and developers</li>
+                  <li>Transparent communication at every step</li>
+                  <li>SEO-ready structure for better visibility</li>
+                  <li>Reliable support even after launch</li>
+                </ul>
+                <p className="text-lg leading-relaxed mt-4">
+                  We don't just deliver projects—we build long-term relationships. Your success is our success, and we take that seriously.
+                </p>
+              </div>
+
+              <div>
+                <h2 className="font-bold text-2xl mb-4">Let's Create a Website People Actually Love</h2>
+                <p className="text-lg leading-relaxed">
+                  If you're searching for dynamic web development services, professional dynamic web design services, or mobile responsive dynamic websites that feel real, perform fast, and deliver results—Avyukt Tech Labs is here to help.
+                </p>
+                <p className="text-lg leading-relaxed mt-4">
+                  Let's build a website that:
+                </p>
+                <ul className="list-disc list-inside space-y-2 mt-2 text-lg">
+                  <li>Represents your brand authentically</li>
+                  <li>Engages real users</li>
+                  <li>Converts visitors into customers</li>
+                </ul>
+                <p className="text-lg leading-relaxed mt-4">
+                  Contact Avyukt Tech Labs today and take the first step toward a powerful digital presence that truly stands out.
                 </p>
               </div>
             </div>
@@ -239,23 +331,7 @@ export default function page() {
           <div className="container mx-auto max-w-6xl">
             <div className="flex flex-col space-y-6 justify-between">
               <div>
-                <h2 className="font-bold text-2xl">
-                  Cost of dynamic website development
-                </h2>
-              </div>
-              <div>
-                <p>
-                  Explore our dynamic website packages at{" "}
-                  <Link className="text-amber-500" href="/">
-                    Avyukt Tech Labs
-                  </Link>
-                  , expertly tailored for your business needs at an affordable
-                  price. Specializing in dynamic website design and development
-                  services in India, we bring your online presence to life with
-                  customized solutions. Our cost-effective plans ensure a
-                  dynamic and engaging website, delivering exceptional value
-                  without compromising quality.
-                </p>
+                <h2 className="font-bold text-2xl">Our Dynamic Website Packages</h2>
               </div>
               <PricingTable packages={packages} />
             </div>

@@ -90,7 +90,7 @@ const Page = () => {
         </div>
       </section>
 
-      <section className="py-12 md:py-16 md:pb-32 px-4 md:px-0">
+      <section className="py-12 md:py-16 md:pb-32 px-8">
         <div className="container mx-auto max-w-8xl">
           <div className="flex flex-col items-center md:space-y-20 space-y-8 justify-between">
             <div>
@@ -171,7 +171,7 @@ const Page = () => {
         </div>
       </section>
 
-      <section className="py-12 md:py-16 md:pb-32 px-4 md:px-0">
+      <section className="py-12 md:py-16 md:pb-32 px-8">
         <div className="container mx-auto max-w-8xl">
           <div className="min-h-screen">
             <motion.h1

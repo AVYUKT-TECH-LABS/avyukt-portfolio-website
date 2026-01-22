@@ -11,6 +11,26 @@ import { cn } from "@/lib/utils";
 import { ArrowRight, CircleCheck, CircleCheckBig } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Avyukt Labs – Web & App Development Company | E-Commerce & IT Solutions",
+  description: "Avyukt Labs is a trusted IT services company offering web development, mobile app development, eCommerce websites, static & dynamic solutions. Grow your business with scalable, secure & modern digital solutions today.",
+  keywords: [
+    "web development company",
+    "app development company",
+    "IT services company",
+    "ecommerce website development",
+    "mobile app development",
+    "static website development",
+    "dynamic website development",
+    "custom software development",
+    "professional web developers",
+    "business website solutions",
+    "startup IT solutions",
+    "digital solutions company"
+  ],
+};
 
 const whatWeWillDo = [
   {
@@ -63,7 +83,7 @@ const help = [
 function page() {
   return (
     <article className="pt-12">
-      <section className="py-12 px-4 md:px-0 md:py-32 md:pb-6 flex flex-row items-center">
+      <section className="py-12 px-4 md:py-32 md:pb-6 flex flex-row items-center">
         <div className="container mx-auto max-w-8xl">
           <div className="flex md:flex-row flex-col-reverse items-center justify-between w-full md:gap-x-12 gap-y-6">
             <div className="flex flex-col gap-y-6 md:py-24 py-10">

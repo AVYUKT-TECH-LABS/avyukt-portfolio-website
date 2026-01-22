@@ -224,7 +224,7 @@ export function LeadPopup() {
         className="bg-[#134A45] px-10 py-4 text-white rounded-lg font-semibold transition duration-400 group md:w-1/2 w-full flex items-center justify-center"
       >
         <span className="flex flex-row items-center justify-center space-x-3 w-full">
-          <span>Get Free Quote</span>
+          <span>Contact Us</span>
         </span>
       </button>
     );
