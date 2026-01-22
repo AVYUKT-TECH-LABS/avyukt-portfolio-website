@@ -182,7 +182,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section className="py-24 w-full">
+      <section className="py-24 w-full px-8">
         <div className="md:container md:mx-auto md:max-w-8xl w-full">
           <div className="flex flex-col items-center space-y-20 justify-between">
             <div>
