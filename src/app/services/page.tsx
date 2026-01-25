@@ -44,13 +44,14 @@ const services: {
     color: "bg-purple-500/90",
     link: "/ecommerce-website",
   },
-  // {
-  //   title: 'Enterprise Websites',
-  //   description: 'Advanced custom enterprise websites and portals development services to evaluates entrepreneurs needs and business goals for better customer experience at budget',
-  //   icon: Building,
-  //   color: 'bg-red-500/90',
-  //   link: "/enterprise-website"
-  // },
+  {
+    title: "Enterprise Websites",
+    description:
+      "Advanced custom enterprise websites and portals development services to evaluate entrepreneurs needs and business goals for better customer experience.",
+    icon: Building,
+    color: "bg-red-500/90",
+    link: "/enterprise-website",
+  },
   {
     title: "Mobile Applications",
     description:
@@ -59,13 +60,14 @@ const services: {
     color: "bg-yellow-500/90",
     link: "/mobile-app-development",
   },
-  // {
-  //   title: 'Web Hosting',
-  //   description: 'Buy Web hosting server at affordable cost, where you can scale your website as per your need. We have multiple plans for Shared Web Hosting Plans.',
-  //   icon: Server,
-  //   color: 'bg-pink-500/90',
-  //   link: "/web-hosting"
-  // }
+  {
+    title: "Web Hosting",
+    description:
+      "Buy Web hosting server at affordable cost, where you can scale your website as per your need. We have multiple plans for Shared Web Hosting Plans.",
+    icon: Server,
+    color: "bg-pink-500/90",
+    link: "/web-hosting",
+  },
 ];
 
 const Page = () => {

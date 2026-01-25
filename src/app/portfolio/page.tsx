@@ -258,6 +258,37 @@ export default function Page() {
           </div> */}
         </div>
       )}
+
+      {/* Our Services Section */}
+      <section className="py-16 px-4 md:px-0 bg-gray-50">
+        <div className="container mx-auto max-w-6xl">
+          <h2 className="font-bold text-3xl mb-4 text-center">Our Services</h2>
+          <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
+            Want to build something similar? Explore our comprehensive web development and hosting services.
+          </p>
+          <div className="grid md:grid-cols-3 lg:grid-cols-6 gap-4">
+            <Link href="/static-website" className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100 text-center">
+              <h3 className="font-semibold text-sm">Static Websites</h3>
+            </Link>
+            <Link href="/dynamic-website" className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100 text-center">
+              <h3 className="font-semibold text-sm">Dynamic Websites</h3>
+            </Link>
+            <Link href="/ecommerce-website" className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100 text-center">
+              <h3 className="font-semibold text-sm">eCommerce</h3>
+            </Link>
+            <Link href="/enterprise-website" className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100 text-center">
+              <h3 className="font-semibold text-sm">Enterprise</h3>
+            </Link>
+            <Link href="/mobile-app-development" className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100 text-center">
+              <h3 className="font-semibold text-sm">Mobile Apps</h3>
+            </Link>
+            <Link href="/web-hosting" className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100 text-center">
+              <h3 className="font-semibold text-sm">Web Hosting</h3>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <ContactUs />
     </article>
   );

@@ -204,7 +204,7 @@ export default function page() {
               </div>
               <div>
                 <p>
-                  If you’re looking for ecommerce website development, ecommerce web development, ecommerce website design, static web design services, or dynamic web development services, Avyukt Tech Labs is ready to deliver.
+                  If you’re looking for ecommerce website development, ecommerce web development, ecommerce website design, <Link href="/static-website" className="text-blue-600 hover:underline">static web design services</Link>, or <Link href="/dynamic-website" className="text-blue-600 hover:underline">dynamic web development services</Link>, Avyukt Tech Labs is ready to deliver.
                 </p>
                 <p className="mt-4">
                   Let’s create a website that attracts clients, builds trust, and increases revenue.
@@ -223,6 +223,34 @@ export default function page() {
             </div>
           </div>
         </section>
+        {/* Related Services Section */}
+        <section className="py-12 px-4 md:px-0 bg-gray-50">
+          <div className="container mx-auto max-w-6xl">
+            <h2 className="font-bold text-2xl mb-6 text-center">Explore Our Other Services</h2>
+            <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
+              Complete your digital presence with our full range of web development and hosting services.
+            </p>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+              <Link href="/dynamic-website" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+                <h3 className="font-semibold text-lg mb-2">Dynamic Websites</h3>
+                <p className="text-gray-600 text-sm">CMS-powered websites with easy content management and updates.</p>
+              </Link>
+              <Link href="/enterprise-website" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+                <h3 className="font-semibold text-lg mb-2">Enterprise Solutions</h3>
+                <p className="text-gray-600 text-sm">Large-scale platforms with advanced integrations and security.</p>
+              </Link>
+              <Link href="/web-hosting" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+                <h3 className="font-semibold text-lg mb-2">Web Hosting</h3>
+                <p className="text-gray-600 text-sm">Reliable, fast hosting to power your eCommerce store 24/7.</p>
+              </Link>
+              <Link href="/mobile-app-development" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+                <h3 className="font-semibold text-lg mb-2">Mobile Apps</h3>
+                <p className="text-gray-600 text-sm">Bring your store to mobile with custom app development.</p>
+              </Link>
+            </div>
+          </div>
+        </section>
+
         <BlogPosts
           title="Our Fresh eCommerce Blogs"
           category="ecommerce-website"

@@ -152,8 +152,8 @@ export default function page() {
             <div>
               <p className="text-lg leading-relaxed">
                 Static website development is a refined approach to creating
-                high-performing and efficient websites. Unlike traditional
-                dynamic web development services, which use complex server-side
+                high-performing and efficient websites. Unlike traditional{" "}
+                <Link href="/dynamic-website" className="text-blue-600 hover:underline">dynamic web development services</Link>, which use complex server-side
                 processing to generate content on demand, static websites serve
                 pre-built HTML, CSS, and JavaScript files directly to
                 visitors&apos; browsers. This architectural difference results
@@ -267,8 +267,8 @@ export default function page() {
                 For simpler websites such as brochures, portfolios, landing
                 pages, or marketing sites, static development is usually
                 sufficient. However, for sites that require frequent updates or
-                have more complex functionality like ecommerce website
-                development, social networks, or web applications, a dynamic
+                have more complex functionality like{" "}
+                <Link href="/ecommerce-website" className="text-blue-600 hover:underline">ecommerce website development</Link>, social networks, or web applications, a dynamic
                 approach may be necessary. Fortunately, advancements in static
                 site generators and headless CMS options have made it possible
                 for static sites to incorporate certain dynamic elements without
@@ -288,7 +288,8 @@ export default function page() {
                 budget-friendly static website design for a simple online
                 presence, our small business static website design for an
                 all-encompassing digital base, our static landing page design to
-                target specific campaigns, or our dynamic website solutions for
+                target specific campaigns, or our{" "}
+                <Link href="/dynamic-website" className="text-blue-600 hover:underline">dynamic website solutions</Link> for
                 intricate features, you are teaming up with experts committed to
                 your prosperity.
               </p>
@@ -323,6 +324,35 @@ export default function page() {
       <StaticWebsiteFeatures />
       <SuitableFor />
       <FAQSection />
+
+      {/* Related Services Section */}
+      <section className="py-12 px-4 md:px-0 bg-gray-50">
+        <div className="container mx-auto max-w-6xl">
+          <h2 className="font-bold text-2xl mb-6 text-center">Explore Our Other Services</h2>
+          <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
+            Looking for more advanced features? Check out our other web development services tailored to different business needs.
+          </p>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <Link href="/dynamic-website" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+              <h3 className="font-semibold text-lg mb-2">Dynamic Websites</h3>
+              <p className="text-gray-600 text-sm">Need content management? Upgrade to our CMS-based dynamic website solutions.</p>
+            </Link>
+            <Link href="/ecommerce-website" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+              <h3 className="font-semibold text-lg mb-2">eCommerce Websites</h3>
+              <p className="text-gray-600 text-sm">Sell products online with our conversion-focused eCommerce development.</p>
+            </Link>
+            <Link href="/enterprise-website" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+              <h3 className="font-semibold text-lg mb-2">Enterprise Solutions</h3>
+              <p className="text-gray-600 text-sm">Large-scale, secure enterprise website development for growing businesses.</p>
+            </Link>
+            <Link href="/web-hosting" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+              <h3 className="font-semibold text-lg mb-2">Web Hosting</h3>
+              <p className="text-gray-600 text-sm">Fast, secure hosting solutions to keep your website running smoothly.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <BlogPosts
         title="Our Static Website Development Blogs"
         category="static-website"

@@ -148,21 +148,21 @@ function page() {
             <div className="flex flex-col items-center justify-between w-full">
               <h3 className="box-title text-center">What we do?</h3>
               <div className="grid md:grid-cols-3 grid-cols-1 gap-8 w-full">
-                <div className="col-span-1 rounded-xl p-4 border-2 border-[#134A45] flex flex-col bg-green-50/40 space-y-2">
+                <Link href="/static-website" className="col-span-1 rounded-xl p-4 border-2 border-[#134A45] flex flex-col bg-green-50/40 space-y-2 hover:shadow-lg transition-shadow">
                   <h4 className="text-xl font-semibold">Web Designing</h4>
                   <p>
                     Our whole aim is to design visually attractive websites to
                     grab the attention of your customers.
                   </p>
-                </div>
-                <div className="col-span-1 rounded-xl p-4 border-2 border-[#134A45] flex flex-col bg-green-50/40 space-y-2">
+                </Link>
+                <Link href="/dynamic-website" className="col-span-1 rounded-xl p-4 border-2 border-[#134A45] flex flex-col bg-green-50/40 space-y-2 hover:shadow-lg transition-shadow">
                   <h4 className="text-xl font-semibold">Web Development</h4>
                   <p>
                     Apart from creating visually attractive websites, we are
                     also experts in web development.
                   </p>
-                </div>
-                <div className="col-span-1 rounded-xl p-4 border-2 border-[#134A45] flex flex-col bg-green-50/40 space-y-2">
+                </Link>
+                <Link href="/mobile-app-development" className="col-span-1 rounded-xl p-4 border-2 border-[#134A45] flex flex-col bg-green-50/40 space-y-2 hover:shadow-lg transition-shadow">
                   <h4 className="text-xl font-semibold">
                     Mobile app development
                   </h4>
@@ -170,7 +170,7 @@ function page() {
                     We create streamlined mobile applications to fit your
                     requirements in order to serve every area.
                   </p>
-                </div>
+                </Link>
               </div>
             </div>
           </div>

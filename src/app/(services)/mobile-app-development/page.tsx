@@ -104,7 +104,7 @@ export default function page() {
                   Our specialized iOS App Development team creates polished, reliable, and high-performance applications for Apple devices. Leveraging Swift, modern frameworks, and Apple design principles, we deliver iOS apps that meet strict App Store guidelines while providing a seamless user experience.
                 </p>
                 <p className="mt-4">
-                  Whether it’s a consumer app, enterprise solution, or on-demand platform, we ensure your iOS application reflects quality, innovation, and reliability.
+                  Whether it’s a consumer app, <Link href="/enterprise-website" className="text-blue-600 hover:underline">enterprise solution</Link>, or on-demand platform, we ensure your iOS application reflects quality, innovation, and reliability.
                 </p>
               </div>
             </div>
@@ -175,6 +175,35 @@ export default function page() {
         </section>
         <Pricing />
         <WhatWeOffer />
+
+        {/* Related Services Section */}
+        <section className="py-12 px-4 md:px-0 bg-gray-50">
+          <div className="container mx-auto max-w-6xl">
+            <h2 className="font-bold text-2xl mb-6 text-center">Complete Your Digital Presence</h2>
+            <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
+              Pair your mobile app with a professional website to maximize your online reach and business growth.
+            </p>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+              <Link href="/dynamic-website" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+                <h3 className="font-semibold text-lg mb-2">Dynamic Websites</h3>
+                <p className="text-gray-600 text-sm">CMS-powered websites that complement your mobile app.</p>
+              </Link>
+              <Link href="/ecommerce-website" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+                <h3 className="font-semibold text-lg mb-2">eCommerce Websites</h3>
+                <p className="text-gray-600 text-sm">Online stores to expand your app&apos;s commerce capabilities.</p>
+              </Link>
+              <Link href="/enterprise-website" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+                <h3 className="font-semibold text-lg mb-2">Enterprise Solutions</h3>
+                <p className="text-gray-600 text-sm">Scalable web platforms integrated with your mobile ecosystem.</p>
+              </Link>
+              <Link href="/web-hosting" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+                <h3 className="font-semibold text-lg mb-2">Web Hosting</h3>
+                <p className="text-gray-600 text-sm">Reliable hosting for your app&apos;s backend and APIs.</p>
+              </Link>
+            </div>
+          </div>
+        </section>
+
         <BlogPosts
           title="Our Mobile Application Development Blogs"
           category="mobile-app-development"

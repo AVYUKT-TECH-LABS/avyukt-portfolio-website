@@ -311,7 +311,7 @@ export default function page() {
                 <ul className="list-disc list-inside space-y-2 mt-2 text-lg">
                   <li>Custom dynamic website development</li>
                   <li>CMS-based dynamic websites</li>
-                  <li>eCommerce and business websites</li>
+                  <li><Link href="/ecommerce-website" className="text-blue-600 hover:underline">eCommerce</Link> and business websites</li>
                   <li>Web applications and portals</li>
                   <li>Database and API integrations</li>
                   <li>Speed optimization and security implementation</li>
@@ -378,6 +378,34 @@ export default function page() {
             </div>
           </div>
         </section>
+        {/* Related Services Section */}
+        <section className="py-12 px-4 md:px-0 bg-gray-50">
+          <div className="container mx-auto max-w-6xl">
+            <h2 className="font-bold text-2xl mb-6 text-center">Explore Our Other Services</h2>
+            <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
+              Discover more ways we can help your business grow online with our comprehensive web solutions.
+            </p>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+              <Link href="/static-website" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+                <h3 className="font-semibold text-lg mb-2">Static Websites</h3>
+                <p className="text-gray-600 text-sm">Fast, affordable static websites perfect for startups and small businesses.</p>
+              </Link>
+              <Link href="/ecommerce-website" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+                <h3 className="font-semibold text-lg mb-2">eCommerce Websites</h3>
+                <p className="text-gray-600 text-sm">Launch your online store with powerful eCommerce development.</p>
+              </Link>
+              <Link href="/enterprise-website" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+                <h3 className="font-semibold text-lg mb-2">Enterprise Solutions</h3>
+                <p className="text-gray-600 text-sm">Scalable enterprise web development for large organizations.</p>
+              </Link>
+              <Link href="/mobile-app-development" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+                <h3 className="font-semibold text-lg mb-2">Mobile Apps</h3>
+                <p className="text-gray-600 text-sm">Extend your reach with custom iOS and Android app development.</p>
+              </Link>
+            </div>
+          </div>
+        </section>
+
         <BlogPosts
           title="Our Dynamic Website Devleopment Blogs"
           category="dynamic-website"
